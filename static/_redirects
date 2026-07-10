@@ -1,0 +1,7 @@
+# mariospr.org — Netlify / Cloudflare Pages redirect rules.
+# 200 = rewrite/proxy in place (feed readers keep getting RSS at the WP URL);
+# 301 = permanent redirect.
+
+/feed/        /index.xml          200
+/*/feed/      /:splat/index.xml   200
+/author/*     /                   301

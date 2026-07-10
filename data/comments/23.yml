@@ -1,0 +1,25 @@
+- id: 26
+  author: API
+  url: https://blogs.igalia.com/apinheiro
+  date: '2008-03-28T14:49:28+00:00'
+  date_display: March 28, 2008
+  html: <p>You should had used your "Don Johnson photo" instead of that one ;)</p>
+  children: []
+- id: 27
+  author: mario
+  url: https://mariospr.org
+  date: '2008-03-28T15:08:01+00:00'
+  date_display: March 28, 2008
+  html: '<p>XD</p>
+
+    <p>And you should set up a picture of yourself in the planet as a Hackergotchie... or at least in the "About" section of your blog. Please API, let the world to know how handsome man you are!! (And don''t tell me about your Igalia crew''s picture, we want a full-body picture now!)</p>
+
+    <p>;-)</p>'
+  children: []
+- id: 29
+  author: Paul Johnson
+  url: ''
+  date: '2010-07-27T03:45:15+00:00'
+  date_display: July 27, 2010
+  html: <p>Clearly you managed to visit California without having contact with the locals, or you'd be scarfing BC Powder trying to recover from a stupidity-induced headache.</p>
+  children: []

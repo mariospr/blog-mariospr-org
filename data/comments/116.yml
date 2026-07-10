@@ -1,0 +1,42 @@
+- id: 91
+  author: uastasi
+  url: http://identi.ca/uastasi
+  date: '2009-09-01T01:06:31+00:00'
+  date_display: September 1, 2009
+  html: '<p>FYI I''ve done a PKGBUILD for ArchLinux http://aur.archlinux.org/packages.php?ID=29758.<br>
+
+    Keep up the good work!<br>
+
+    Cheers</p>'
+  children: []
+- id: 93
+  author: mario
+  url: https://mariospr.org
+  date: '2009-09-01T09:12:08+00:00'
+  date_display: September 1, 2009
+  html: '<p>&gt; FYI I’ve done a PKGBUILD for ArchLinux http://aur.archlinux.org<br>
+
+    &gt; /packages.php?ID=29758.<br>
+
+    &gt; Keep up the good work!<br>
+
+    &gt; Cheers</p>
+
+    <p>Thanks uastasi! I''ll put a link in the project''s web asap :-)</p>'
+  children: []
+- id: 94
+  author: Andreas Jonsson
+  url: ''
+  date: '2009-09-10T17:55:45+00:00'
+  date_display: September 10, 2009
+  html: '<p>Cool. I''d like to keep updated on this project, but you don''t seem to have a feed (rss) on your blog?</p>
+
+    <p>Cheers</p>'
+  children: []
+- id: 95
+  author: mario
+  url: https://mariospr.org
+  date: '2009-09-14T08:48:00+00:00'
+  date_display: September 14, 2009
+  html: "<p>&gt; Cool. I’d like to keep updated on this project, but you don’t seem <br>\n&gt; to have a feed (rss) on your blog?</p>\n<p>Actually there is rss feeds all around:<br>\n - blog: https://mariospr.org/feed<br>\n - GNOME category: https://mariospr.org/category/gnome/feed<br>\n - frogr category: https://mariospr.org/category/frogr/feed</p>\n<p>Hope this helps</p>"
+  children: []

@@ -1,0 +1,43 @@
+- id: 30708
+  author: Rowan Lewis
+  url: ''
+  date: '2015-01-08T12:54:23+00:00'
+  date_display: January 8, 2015
+  html: <p>Small typo, "speeded" should be "sped" :)</p>
+  children:
+  - id: 30711
+    author: mario
+    url: ''
+    date: '2015-01-08T13:24:49+00:00'
+    date_display: January 8, 2015
+    html: '<p>Thanks for the correction. I can''t correct the release announcement email now, but I can certainly fix this post, so done.</p>
+
+      <p>Still, there seems not to be a "black or white" thing either, apparently both "sped up" and "speeded up" are correct, with the first option being perhaps more common: http://grammarist.com/usage/sped-speeded</p>
+
+      <p>Anyway, I''m not a native English speaker (as it''s obvious) so I''d rather trust your judgement better than mine on this topic :-)</p>
+
+      <p>Thanks!</p>'
+    children: []
+- id: 31531
+  author: Matt
+  url: ''
+  date: '2015-01-19T21:43:43+00:00'
+  date_display: January 19, 2015
+  html: "<p>Hi,\r<br>\nI discovered your program and started using it last week without any problems. Today I am not able to get it to work. It doesn't connect to Flickr. I tried deleting the config folder, uninstalling and reinstalling, tried on another computer, but always the same: I hit OK on the \"Authorize frogr\" box, it says \"Retrieving data for authorization\" for a few seconds, then \"Connection error: Bad request\".\r<br>\nAny ideas? Thanks a lot.</p>"
+  children:
+  - id: 31558
+    author: Matt
+    url: ''
+    date: '2015-01-20T06:25:51+00:00'
+    date_display: January 20, 2015
+    html: <p>Nevermind, this morning everything works fine again.</p>
+    children:
+    - id: 31571
+      author: mario
+      url: ''
+      date: '2015-01-20T11:17:31+00:00'
+      date_display: January 20, 2015
+      html: '<p>I was about to say it looked like a server-side error, and it seems like it was that, indeed.</p>
+
+        <p>Happy to see you have frogr working again! :)</p>'
+      children: []

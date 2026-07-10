@@ -1,0 +1,16 @@
+- id: 15
+  author: txenoo
+  url: https://blogs.igalia.com/chema/
+  date: '2007-04-16T02:33:06+00:00'
+  date_display: April 16, 2007
+  html: <p>i would like you send me a copy of the video i know you have, i know that i'm really bad with keyboard guitar.</p>
+  children: []
+- id: 16
+  author: eocanha
+  url: https://blogs.igalia.com/eocanha/
+  date: '2007-04-20T15:30:10+00:00'
+  date_display: April 20, 2007
+  html: '<p>Thank you for pointing "Frets on fire". I didn''t know it, and I tried it yesterday for the first time.</p>
+
+    <p>It really "rocks"! ;-)</p>'
+  children: []

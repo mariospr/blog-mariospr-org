@@ -1,0 +1,67 @@
+/* --- Migrated WordPress content: images, captions, alignment ------------- */
+.post-content img { height: auto; }
+
+.post-content figure.wp-caption { margin: 1.5em auto; max-width: 100%; }
+.post-content figure.wp-caption img { display: block; margin: 0 auto; }
+.post-content figure.wp-caption figcaption,
+.post-content .wp-caption-text {
+  margin-top: .5em;
+  font-size: .85em;
+  font-style: italic;
+  text-align: center;
+  color: var(--secondary);
+}
+
+/* Legacy WordPress alignment classes used inline in old posts */
+.post-content .aligncenter,
+.post-content img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.post-content .alignright { float: right; margin: .3em 0 1em 1.5em; }
+.post-content .alignleft  { float: left;  margin: .3em 1.5em 1em 0; }
+.post-content .alignnone  { margin: 1em 0; }
+
+/* Keep old fixed-size embeds (YouTube/Vimeo/SpeakerDeck/SlideShare iframes)
+   from overflowing narrow screens. */
+.post-content iframe,
+.post-content object,
+.post-content embed { max-width: 100%; }
+.post-content iframe { border: 0; }
+
+/* --- Read-only migrated comments ---------------------------------------- */
+.comments { margin-top: 3rem; border-top: 1px solid var(--border); padding-top: 1rem; }
+.comments h2 { margin-bottom: 1rem; }
+.comment { margin: 1.2rem 0; }
+.comment-meta { font-size: .9em; margin-bottom: .3rem; }
+.comment-author { font-weight: 700; }
+.comment-date { color: var(--secondary); margin-left: .5em; }
+.comment-body { }
+.comment-children {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
+}
+.comments-closed { margin-top: 1.5rem; color: var(--secondary); font-size: .9em; }
+
+/* --- Talks page ---------------------------------------------------------
+   Reproduces the old silver-platinum-mariospr theme styling. The original
+   relied on WordPress wpautop() to break the <span>s onto separate lines;
+   Goldmark doesn't do that, so we make them display:block here. */
+.post-content h1.talks-year-header {
+  font-size: 1.8em;
+  margin: 1.5em 0 .5em;
+  padding: 0;
+}
+.post-content h1.talks-year-header:first-of-type { margin-top: .5em; }
+.post-content div.talks-talk { margin: 0 0 1.5em; padding: 0; }
+.post-content div.talks-talk .talk-name {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;   /* even, intentional-looking wrap on long titles */
+}
+.post-content div.talks-talk .talk-details { display: block; font-size: 1em; }
+.post-content div.talks-talk .talk-link {
+  display: block;
+  font-size: .9em;
+  font-style: italic;
+}

@@ -1,0 +1,80 @@
+- id: 150
+  author: Alexandre Franke
+  url: http://www.alexandrefranke.com/
+  date: '2010-12-24T23:57:20+00:00'
+  date_display: December 24, 2010
+  html: <p>What is your preferred way to submit translations? Is it available on a platform such as Transifex or Damned lies, or do I have to get the pot file from the git repo?</p>
+  children: []
+- id: 151
+  author: mario
+  url: https://mariospr.org
+  date: '2010-12-25T01:52:13+00:00'
+  date_display: December 25, 2010
+  html: '<p>@Alexandre: First of all, thanks for your interest. I''m afraid at the moment the only way to provide new translations is by manually generating new .po files in the po/directory and filling them as needed.</p>
+
+    <p>Still, don''t hesitate to let me know if there''s something I could help you with to ease the task as much as possible.</p>
+
+    <p>Thanks!</p>'
+  children: []
+- id: 152
+  author: Dave Beckett
+  url: http://www.dajobe.org/
+  date: '2010-12-25T03:40:19+00:00'
+  date_display: December 25, 2010
+  html: <p>As the Flickcurl author, this makes a lot of sense to integrate with the gnome libraries and provide interactive applications  Good luck in your development.</p>
+  children: []
+- id: 153
+  author: mario
+  url: https://mariospr.org
+  date: '2010-12-25T21:01:06+00:00'
+  date_display: December 25, 2010
+  html: '<p>@Dave: Thanks for your kind words. I also hope some day the library will be helpful for someone else writing a GNOME app, but I''m afraid flicksoup is still in a too early (and continuously changing) phase of development so I guess that will have to wait a bit till we manage to release it as a separate package.</p>
+
+    <p>Also, I hope you liked the name I used for the library, in honor to your flickcurl thing :-). I really did benefit of flickcurl a lot when writing frogr 0.1 and 0.2 and I felt like naming my library similar to it as a humble kind of appreaciation for it.</p>'
+  children: []
+- id: 154
+  author: Alexandre Franke
+  url: http://www.alexandrefranke.com/
+  date: '2011-01-03T23:23:02+00:00'
+  date_display: January 3, 2011
+  html: <p>I was expecting a .pot file in the source tree but couldn't find one, nor a way to generate it… What's the trick?</p>
+  children: []
+- id: 155
+  author: mario
+  url: https://mariospr.org
+  date: '2011-01-03T23:39:18+00:00'
+  date_display: January 3, 2011
+  html: '<p>@Alexandre: you can generate it by doing cd po/ &amp;&amp; make frogr.pot</p>
+
+    <p>However, I must warn you, before you start to translate it, that I''ve been doing big changes in frogr during these last two weeks, with the intention in mind of releasing the 0.4 version (coming with some interesting new features) in some weeks time, and that new version will come with new strings to be translated too.</p>
+
+    <p>Hence, if you don''t feel like translating twice and prefer to wait till the code is stable enough for the 0.4 release, I''d be more than happy to send you a mail to notify you when it''s a good moment to do it so.</p>
+
+    <p>Of course, if you still want to submit a translation for the current 0.3 version that would be wonderful too.</p>
+
+    <p>Your choice :-)</p>'
+  children: []
+- id: 156
+  author: Alexandre Franke
+  url: http://www.alexandrefranke.com/
+  date: '2011-01-04T16:05:22+00:00'
+  date_display: January 4, 2011
+  html: '<p>French translation for current git HEAD should be in your inbox now. :-)</p>
+
+    <p>Please let me know when you want me to update it for 0.4.</p>'
+  children: []
+- id: 157
+  author: mario
+  url: https://mariospr.org
+  date: '2011-01-04T23:23:15+00:00'
+  date_display: January 4, 2011
+  html: '<p>@Alexandre: Thanks a lot for the translation. As you can see I already applied it to the repository at [1]</p>
+
+    <p>I''ll let you know when I reach the "l10n strings freeze" for 0.4 to update it then, it''s not going to be too much work I guess but still you can be sure some new things will appear on that release that will need translation [2] ;-)</p>
+
+    <p>Thanks!</p>
+
+    <p>[1] http://gitorious.org/frogr/mainline/commit/94c5515bf45250ad1d8e4e39c7b06f5e3591a7cf<br>
+
+    [2] http://gitorious.org/frogr/mainline/blobs/master/NEWS</p>'
+  children: []

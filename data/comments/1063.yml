@@ -1,0 +1,29 @@
+- id: 828
+  author: Jack Gandy
+  url: ''
+  date: '2012-09-14T21:49:40+00:00'
+  date_display: September 14, 2012
+  html: <p>I'm really excited about every point mentioned. This is going to take the web experience in GNOME to a whole new level.</p>
+  children: []
+- id: 829
+  author: Eduard Gotwig
+  url: ''
+  date: '2012-09-15T00:27:47+00:00'
+  date_display: September 15, 2012
+  html: '<p>I am happy about the progress, not kidding, but what about Point Locker API?</p>
+
+    <p>I wanna play Sauerbraten online (Banana Bread) in "Web" ;)</p>'
+  children: []
+- id: 836
+  author: mario
+  url: ''
+  date: '2012-09-15T11:02:25+00:00'
+  date_display: September 15, 2012
+  html: '<p>@Eduard: At the moment the Pointer Lock API is not yet supported in WebKitGTK+, but I agree it would be a nice addition, and also a nice complement to all the new stuff that it''s coming with WebKit2GTK+, like AC or WebGL (I''m thinking of FPS games too here ;-)).</p>
+
+    <p>However, for the next cycle (towards GNOME 3.8) we are focused on porting and writing the APIs that we will need to make WebKit2GTK+ stable and mature enough for applications, like "Web", to start using it "safely" (no API/ABI breaks) from that point on.</p>
+
+    <p>Which is a long way of saying that, as this API doesn''t fall in the category of things that we would need to port applications to WebKit2GTK+ (see [1]), it''s not likely it will get implemented in the next cycle, although the idea is to eventually add support for it after that.</p>
+
+    <p>[1] http://trac.webkit.org/wiki/WebKitGTK/WebKit2Roadmap</p>'
+  children: []

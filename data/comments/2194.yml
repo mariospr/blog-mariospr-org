@@ -1,0 +1,16 @@
+- id: 36847
+  author: Gutemberg
+  url: ''
+  date: '2016-10-13T22:28:51+00:00'
+  date_display: October 13, 2016
+  html: "<p>Hello Mario,</p>\n<p>Great contribution!</p>\n<p>Could you please have a look on this issue? https://github.com/mariospr/webkit2gtk-ARM/issues/1</p>\n<p>Thanks!</p>\n<p>Appreciate that.</p>\n<p>Best regards,\r<br>\nGutemberg</p>"
+  children:
+  - id: 36849
+    author: mario
+    url: ''
+    date: '2016-10-14T10:35:02+00:00'
+    date_display: October 14, 2016
+    html: '<p>Thanks for you kind comments, Gutemberg. I commented on the issue you filed, hope that helps.</p>
+
+      <p>Let''s continue the discussion there.</p>'
+    children: []

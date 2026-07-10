@@ -1,0 +1,91 @@
+- id: 32951
+  author: Joaquim Rocha
+  url: http://www.joaquimrocha.com
+  date: '2015-03-26T10:35:43+00:00'
+  date_display: March 26, 2015
+  html: <p>Good stuff GUY! You Sir, are a great Dad!</p>
+  children:
+  - id: 32954
+    author: mario
+    url: ''
+    date: '2015-03-26T12:17:03+00:00'
+    date_display: March 26, 2015
+    html: <p>Thank you!</p>
+    children: []
+- id: 32955
+  author: Jens Georg
+  url: http://jensge.org
+  date: '2015-03-26T13:46:02+00:00'
+  date_display: March 26, 2015
+  html: '<p>Nice. I recently looked into doing something similar for the NES and stumbled on the RetroPie project:</p>
+
+    <p>http://blog.petrockblock.com/retropie/</p>'
+  children:
+  - id: 32956
+    author: mario
+    url: ''
+    date: '2015-03-26T14:26:31+00:00'
+    date_display: March 26, 2015
+    html: '<p>Yes, I''ve also considered that. Although in the end I decided to go for this route because I was specifically interested in the SNES emulator and using the PS3 gamepad. Well, and also because I wanted to play with all the moving pieces myself :)</p>
+
+      <p>But I would lie if I say I did not thought of simply using RetroPie, or that I''m not curious about it. Does it work fine for you? Have you tried the SNES emulator?</p>'
+    children: []
+- id: 32961
+  author: Anonymous
+  url: ''
+  date: '2015-03-26T17:41:21+00:00'
+  date_display: March 26, 2015
+  html: '<p>You can also play using an original SNES controller; see http://www.retrousb.com/product_info.php?cPath=21&amp;products_id=29 .</p>
+
+    <p>Though if you''re looking for extra buttons to control things like savestates, that won''t help you.</p>'
+  children:
+  - id: 32963
+    author: mario
+    url: ''
+    date: '2015-03-26T18:02:31+00:00'
+    date_display: March 26, 2015
+    html: '<p>Neat! Did not know about that, thanks!</p>
+
+      <p>About the extra buttons, I''m not really interested in having them. The only reason I wanted to use a PS3 gamepad is because I had an spare one around and my 5yo thought it might be cool to reuse it. But we basically use the cross + 6 buttons only, as if it was a SNES controller.</p>'
+    children:
+    - id: 32976
+      author: Anonymous
+      url: ''
+      date: '2015-03-27T07:36:51+00:00'
+      date_display: March 27, 2015
+      html: <p>In that case, I highly recommend the RetroPort adapters.  They work perfectly, and it's really easy to forget that you're not playing on the original console.</p>
+      children: []
+- id: 32987
+  author: Per "wertigon" Ekström
+  url: ''
+  date: '2015-03-27T17:31:41+00:00'
+  date_display: March 27, 2015
+  html: '<p>Neat trick, although you really should use something more modern than snes9x 1.39, like say higan or snes9x 1.53.  (And don''t get me started on the old, archaic, ancient and fortunately x86-only zsnes...)</p>
+
+    <p>Cool nonetheless though. :)</p>'
+  children:
+  - id: 33015
+    author: mario
+    url: ''
+    date: '2015-03-30T03:38:43+00:00'
+    date_display: March 30, 2015
+    html: <p>Thanks for your comment. I quickly checked those but concluded that PiSNES was the best option for the Raspberry Pi and, because it "just worked" for what I wanted it for, I settled with it. But I might go and check some newer version at some point, sure.</p>
+    children: []
+- id: 33277
+  author: landon
+  url: ''
+  date: '2015-04-16T19:00:47+00:00'
+  date_display: April 16, 2015
+  html: '<p>There''s a usb on/off switch with a usb-female input and a microusb out that I bought for my Raspberry Pi car computer project, it''s $6 on Amazon and eligible for prime, if you were looking to do casing with the SNES this could work really well for you!</p>
+
+    <p>http://www.amazon.com/JBtek-Raspberry-Micro-Cable-Switch/dp/B00JU24Z3W/ref=sr_1_1?ie=UTF8&amp;qid=1429203387&amp;sr=8-1&amp;keywords=raspberry+pi+switch</p>
+
+    <p>I bought one and it works awesome. Cool project by the way!</p>'
+  children:
+  - id: 33278
+    author: mario
+    url: ''
+    date: '2015-04-16T19:30:36+00:00'
+    date_display: April 16, 2015
+    html: <p>Thanks for letting me know, although I doubt I would use it since I'm quite Ok using the On/Off switch of the (standard) UK wall socket :)</p>
+    children: []

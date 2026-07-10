@@ -1,0 +1,73 @@
+- id: 36312
+  author: Martin
+  url: ''
+  date: '2016-04-14T11:51:36+00:00'
+  date_display: April 14, 2016
+  html: <p>The xdg-app idea is new to me, so please forgive me if my question is stupid. Following your link to xdg-app, an important goal seems that "it allow you to trust the applications less, which is important for users of 3rd party applications". So what is point of distributing a web browser as a xdg-app? There are not many programs, I need to trust more than my web browser, right? For me, having a trusted web browser directly from my trusted distribution seems to be essential. Why would one want to trust a 3rd party? TIA!</p>
+  children:
+  - id: 36315
+    author: Imię
+    url: ''
+    date: '2016-04-14T17:38:38+00:00'
+    date_display: April 14, 2016
+    html: '<p>For example official Firefox builds are built with profile-guided optimizations and some other stuff while most distributions do a ''regular'' build. As a result Firefox from Mozilla is faster (reportedly even 30% for some tests) than distro builds.</p>
+
+      <p>And restricting the permissions of apps means that e.g. even if attacker takes control of your browser, he will have a harder time taking control of your PC.</p>'
+    children: []
+  - id: 36318
+    author: mario
+    url: ''
+    date: '2016-04-15T10:19:54+00:00'
+    date_display: April 15, 2016
+    html: '<p>It''s not a stupid question at all. Actually I''m myself still in the process of learning about xdg-app, so I might very well not have the whole full picture yet either, but still I''ll try to answer below...</p>
+
+      <p>First of all, as Imię mentioned, xdg-app is not only about "allowing you to trust the applications less" in that way you put it, but about making it harder for them to take control of your system, should an attack happened, which is pretty much one of the reasonings (besides with stability and performance) behind the multi-process and sandboxed architecture of Chromium itself. So, from that point of view, being able to run the browser as an xdg-app would actually improve things in my opinion (and the bundle could come from your trusted distribution, too).</p>
+
+      <p>But besides those benefits, being able to ship Chromium as a bundle has other ones: In our particular case, we could decouple the OS upgrades from the browser''s updates, which would be indeed quite a big thing, so that Endless users would still receive those updates from their trusted "distribution" (EOS is not really a distro, but still) without waiting for the next OSTree upgrade.</p>
+
+      <p>Then, in a more general case, this could open the door for the distribution of Chromium (and even Chrome, if Google wants) uniformly across Linux distros as an xdg-app, as well as be particularly handy for cases with strict policies when it comes to distributing sofware with bundle-in libraries (e.g. Fedora), so that they have an alternative way to deal with those situations.</p>
+
+      <p>And I''m sure I''m forgetting to mention other things... :-)</p>'
+    children:
+    - id: 36319
+      author: Martin
+      url: ''
+      date: '2016-04-15T15:38:44+00:00'
+      date_display: April 15, 2016
+      html: '<p>Maybe I''m too conservative for such things, but I''m not so worried that my web browser "takes control of my PC". I''m much more worried whether my web browser could send information related to one web site to another, e.g. bank account details to a black hat.</p>
+
+        <p>Also, while running an application in an isolated container is a good idea, but could be handled within the existing distributions, with any DEB or RPM package. When I''m running Debian or Fedora or whatever, I already decided to fully (not to say blindly) trust "my" distribution. I don''t believe that extending this trust to additional parties improves security. Some people might trust Debian or Fedora more than Google or Mozilla Inc, but YMMV :~)</p>
+
+        <p>The policies Fedora, Debian and other distributions have in respect to bundling, are very good and useful, because security fixes in a library have to fixed only once. If I understand correctly, xdg-app would be a way to circumvent such security measure, and I would have to update all applications that have the vulnerable library bundled, right?</p>'
+      children:
+      - id: 36320
+        author: mario
+        url: ''
+        date: '2016-04-15T22:36:37+00:00'
+        date_display: April 15, 2016
+        html: '<p>I agree with your concerns, but I fail to see why they are incompatible with chromium running as an xdg-app.</p>
+
+          <p>After all, the fact that it''s possible to distribute the browser as a bundle does not mean that you have to install it from any untrusted source out there: you could install it from any third party that provides it, true, but also from your trusted distribution if it offers that possibility, in which case there would really not be much of a difference compared to what you already do now, right?</p>
+
+          <p>About the problem with bundled libraries that you mention, needing to update all bundled apps depending on a buggy library to get it fixed is indeed an issue, but only for those libraries that are not contained in the runtime, which gets updated independently of the xdg-app itself. But in any case, this is IMHO yet another reason to keep distributing core components as it''s been done so far, and leave this model only for apps (which should ideally be properly sandboxed, to contain any potential harm they could cause).</p>
+
+          <p>Now, for the particular case of chromium... it''s not that the difference is going to be huge precisely, since chromium already bundles a lot of libraries anyway. Actually, the only libraries I needed to add so far to build it where lspci and alsa-lib, everything else was already being provided by the xdg-app runtimes, so not that a big deal as it might look at a first glance. It''s basically almost the same thing, with a different packaging :-)</p>'
+        children:
+        - id: 36324
+          author: Martin
+          url: ''
+          date: '2016-04-18T12:39:47+00:00'
+          date_display: April 18, 2016
+          html: '<p>Are you sure about chromium bundling libraries? I count almost fourty depencies in my chromium packages, such as libasound, libcairo, libcups, libdbus, libglib/libgtk, libnspr, libx*...</p>
+
+            <p>Also, I''m not sure, whether I would like the idea in splitting a distribution into "core" and "apps". It sounds like an arbitrary distinction. And what about dependencies between packages?</p>
+
+            <p>Maybe I''m a little bit scared when I see the word "apps". It reminds me of my telephone, which unfortunately does not have proper package management, but only "apps".</p>'
+          children:
+          - id: 36325
+            author: mario
+            url: ''
+            date: '2016-04-18T12:55:13+00:00'
+            date_display: April 18, 2016
+            html: <p>Most of the libraries you mentioned come with the xdg-app runtime, so there's no need to bundle them together with chromium. When I said that I only needed to add alsa-lib and lspci for now I meant "inside the app bundle", but of course chromium requires all what you mentioned too. It's just that I don't have to worry about it from the application's point of view.</p>
+            children: []

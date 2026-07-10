@@ -1,0 +1,25 @@
+- id: 96
+  author: Richard
+  url: http://www.kosmokaryote.org
+  date: '2009-10-13T00:21:12+00:00'
+  date_display: October 13, 2009
+  html: '<p>Neat!  I''m trying to do something similar with PicasaWeb right now.  What little time I have gets spent on libgdata support for the service, though an initial version is available at gitorious.org/icarus</p>
+
+    <p>Good luck with yours.</p>'
+  children: []
+- id: 97
+  author: Benni
+  url: ''
+  date: '2009-10-28T18:17:32+00:00'
+  date_display: October 28, 2009
+  html: <p>Could you please provide amd64 debs for 0.2?</p>
+  children:
+  - id: 98
+    author: mario
+    url: https://mariospr.org
+    date: '2009-10-28T18:39:41+00:00'
+    date_display: October 28, 2009
+    html: '<p>Actually I don''t have a running 64-bit system so it''s not that easy to me to create them, but I''ll ask around to see if someone wants to help with this as it happened with 0.1.1.</p>
+
+      <p>Thanks for your interest and stay tuned... and of course, feel free to pack it yourself if you wish ;-)</p>'
+    children: []

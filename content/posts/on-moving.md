@@ -1,0 +1,51 @@
+---
+title: On Moving
+date: '2018-08-03T17:36:43+00:00'
+slug: on-moving
+categories:
+- General
+- Personal
+- Planet GNOME
+- Planet GPUL
+- Planeta GNOME Hispano
+- Endless
+wp_id: 2551
+---
+
+<a href="https://www.youtube.com/watch?v=n4RjJKxsamQ">Winds of Change</a>. One of my favourite songs ever and one that comes to my mind now that me and my family are going through quite some important changes, once again. But let's start from the beginning...
+
+A few years ago, back in January 2013, my family and me moved to the UK as the result of <a href="/2012/11/19/moving-on/">my decision to leave Igalia</a> after almost 7 years in the company to embark ourselves in the "adventure" or living abroad. This was an idea we had been thinking about for a while already at that time, and our current situation back then suggested that it could be the right moment to try it out... so we did.
+
+It was kind of a long process though: I first arrived alone in January to make sure I would have time to figure things out and find a permanent place for us to live in, and then my family joined me later in May, once everything was ready. Not great, if you ask me, to be living separated from your loved ones for 4 full months, not to mention the juggling my wife had to do during that time to combine her job with looking after the kids mostly on her own... but we managed to see each other every 2-3 weekends thanks to the London - Coruña direct flights in the meantime, so at least it was bearable from that point of view.
+
+But despite of those not so great (yet expected) beginnings, I have to say that this past 5+ years have been an incredible experience overall, and we don't have a single regret about making the decision to move, maybe just a few minor and punctual things only if I'm completely honest, but that's about it. For instance, it's been just beyond incredible and satisfying to see my kids develop their English skills "from zero to hero", settle at their school, make new friends and, in one word, <em>evolve</em> during these past years. And that alone would have been a good reason to justify the move already, but it turns out we also have plenty of other reasons as we all have evolved and enjoyed the ride quite a lot as well, made many new friends, knew many new places, worked on different things... a truly enriching experience indeed!
+
+In a way, I confess that this could easily be one of those things we'd probably have never done if we knew in advance of all the things we'd have to do and go through along the way, so I'm very grateful for that naive ignorance, since that's probably how we found the courage, energy and time to do it. And looking backwards, it seems clear to me that it was the right time to do it.
+
+But now it's 2018 and, even though we had such a great time here both from personal and work-related perspectives, we have decided that it's time for us to come back to <a href="https://en.wikipedia.org/wiki/Galicia_(Spain)">Galicia</a> (Spain), and try to continue our vital journey right from there, in our homeland.
+
+And before you ask... no, this is <strong>not</strong> <strong>because</strong> of <a href="https://en.wikipedia.org/wiki/Brexit">Brexit</a>. I recognize that the result of the referendum has been a "contributing factor" (we surely didn't think as much about returning to Spain before that 23 of June, that's true), but there were more factors contributing to that decision, which somehow have aligned all together to tell us, very clearly, that Now It's The Time...
+
+For instance, we always knew that we would eventually move back for my wife to take over the family business, and also that we'd rather make the move in a way that it would be not too bad for our kids when it happened. And having a 6yo and a 9yo already it feels to us like now it's the perfect time, since they're already native English speakers (achievement unlocked!) and we believe that staying any longer would only make it harder for them, especially for my 9yo, because i<span style="font-size: 1rem;">t's never easy to leave your school, friends and place you call home behind when you're a kid (and I know that very well, as I went through that painful experience precisely when I was 9).</span>
+
+<span style="font-size: 1rem;">Besides that, I've also recently decided to leave <a href="http://www.endlessm.com/">Endless</a> after 4 years in the company and so it looks like, once again, moving back home would fit nicely with that work-related change, for several reasons. Now, </span>I don't want to enter into much detail on why exactly I decided to leave Endless, so I think I'll summarize it as me needing a change and a rest after these past years working on <a href="https://endlessos.com/">Endless OS</a>, which has been an equally awesome and intense experience as you can imagine. If anything, I'd just want to be clear on that contributing to such a meaningful project surrounded by such a team of great human beings, was an experience I couldn't be happier and prouder about, so you can be certain it was not an easy decision to make.
+
+Actually, quite the opposite: a pretty hard one I'd say... but a nice "side effect" of that decision, though, is that leaving at this precise moment would allow me to focus on the relocation in a more organized way as well as to spend some quality time with my family before leaving the UK. Besides, it will hopefully be also useful for us to have enough time, once in Spain, to re-organize our lives there, settle properly and even have some extra weeks of true holidays before the kids start school and we start working again in September.
+
+Now, taking a few weeks off and moving back home is very nice and all that, but we still need to have jobs, and this is where our relocation gets extra interesting as it seems that we're moving home in multiple ways at once...
+
+For once, my wife will start taking over the family business with the help of her dad in her home town of <a href="https://en.wikipedia.org/wiki/Lal%C3%ADn">Lalín (Pontevedra)</a>, where we plan to be living for the foreseeable future. This is the place where she grew up and where her family and many friends live in, but also a place she hasn't lived in for the last 15 years, so the fact that we'll be relocating there is already quite a thing in the "moving back home" department for her...
+
+Second, for my kids this will mean going back to having their relatives nearby once again as well as friends they only could see and play with during holidays until now, which I think it's a very good thing for them. Of course, this doesn't feel as much moving home for them as it does for us, since they obviously consider the UK their home for now, but our hope is that it will be ok in the medium-long term, even though it will likely be a bit challenging for them at the beginning.
+
+Last, I'll be moving back to work at <a href="https://www.igalia.com/">Igalia</a> after <a href="/2012/11/19/moving-on/">almost 6 years since I left</a> which, as you might imagine, feels to me very much like "moving back home" too: I'll be going back to working in a place I've always loved so much for multiple reasons, surrounded by people I know and who I consider friends already (I even would call some of them "best friends") and with its foundations set on important principles and values that still matter very much to me, both from technical (e.g. Open Source, Free Software) and not so technical (e.g. flat structure, independence) points of view.
+
+Those who know me better might very well think that I've never really moved on as I hinted in the title of the <a href="/2012/11/19/moving-on/">blog post I wrote years ago</a>, and in some way that's perhaps not entirely wrong, since it's no secret I always kept in touch throughout these past years at many levels and that I always felt enormously proud of my time as an Igalian. <a href="http://bassi.io/">Emmanuele</a> even told me that I sometimes enter what he seems to call an "Igalia mode" when I speak of my past time in there, as if I was still there... Of course, I haven't seen any formal evidence of such thing happening yet, but it certainly does sound like a possibility as it's true I easily get carried away when Igalia comes to my mind, maybe as a mix of nostalgia, pride, good memories... those sort of things. I suppose he's got a point after all...
+
+So, I guess it's only natural that I finally decided to apply again since, even though both the company and me have evolved quite a bit during these years, the core foundations and principles it's based upon remain the same, and I still very much align with them. But applying was only one part, so I couldn't finish this blog post without stating how grateful I am for having been granted this second opportunity to join Igalia once again because, being honest, more often than less I was worried on whether I would be "good enough" for the Igalia of 2018. And the truth is that I won't know for real until I actually start working and stay in the company for a while, but knowing that both my former colleagues and newer Igalians who joined since I left trust me enough to join is all I need for now, and I couldn't be more excited nor happier about it.
+
+Anyway, this post is already too long and I think I've covered everything I wanted to mention On Moving (pun intended with my post from 2012, thanks <a href="https://blogs.gnome.org/wjjt/">Will Thompson</a> for the idea!), so I think I'll stop right here and re-focus on the latest bits related to the relocation before we effectively leave the UK for good, now that we finally left our rented house and put all our stuff in a removals van. After that, I expect a few days of crazy unpacking and bureaucracy to properly settle in Galicia and then hopefully a few weeks to rest and get our batteries recharged for our new adventure, starting soon in September (yet not too soon!).
+
+As usual, we have no clue of how future will be, but we have a good feeling about this thing of moving back home in multiple ways, so I believe we'll be fine as long as we stick together as a family as we always did so far.
+
+But in any case, please wish us good luck.That's always welcome! :-)

@@ -1,0 +1,56 @@
+- id: 5462
+  author: Juanjo Marin
+  url: ''
+  date: '2013-02-03T02:55:29+00:00'
+  date_display: February 3, 2013
+  html: <p>Excellent post Mario !!! Very informative, thanks for writing it :-)</p>
+  children:
+  - id: 5463
+    author: mario
+    url: ''
+    date: '2013-02-03T03:14:26+00:00'
+    date_display: February 3, 2013
+    html: <p>Thanks! It took quite some more time to write it than my "initial estimations", but I think it paid off in the end :-)</p>
+    children: []
+- id: 5477
+  author: sebsauer
+  url: ''
+  date: '2013-02-03T19:41:16+00:00'
+  date_display: February 3, 2013
+  html: <p>Thanks. Very nice, detailed and informative blog! :)</p>
+  children:
+  - id: 5478
+    author: mario
+    url: ''
+    date: '2013-02-03T20:12:56+00:00'
+    date_display: February 3, 2013
+    html: <p>Thanks for reading it and for the feedback</p>
+    children: []
+- id: 5492
+  author: Denis Nomiyama
+  url: ''
+  date: '2013-02-04T17:46:31+00:00'
+  date_display: February 4, 2013
+  html: <p>Great post! Quite liked the way you started explaining accessibility in GTK+ applications, added WebKit and finished off by adding the WebKit2GTK+ :) Many thanks.</p>
+  children:
+  - id: 5498
+    author: mario
+    url: ''
+    date: '2013-02-04T19:26:01+00:00'
+    date_display: February 4, 2013
+    html: <p>Thanks! Glad to see people finding it useful :)</p>
+    children: []
+- id: 5493
+  author: API
+  url: https://blogs.igalia.com/apinheiro/
+  date: '2013-02-04T18:10:46+00:00'
+  date_display: February 4, 2013
+  html: <p>Impressive post. Thanks Mario, this is really useful. Your verbosity used for a good cause. Because you know, "With great power comes great responsibility" ;)</p>
+  children:
+  - id: 5499
+    author: mario
+    url: ''
+    date: '2013-02-04T19:27:56+00:00'
+    date_display: February 4, 2013
+    html: <p>Thanks for this "backhanded compliment", as they call it here in the UK according to my mates. I really appreciate it coming from the fearless GNOME accessibility leader :)</p>
+    children: []

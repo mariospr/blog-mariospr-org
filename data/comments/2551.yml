@@ -1,0 +1,49 @@
+- id: 37223
+  author: J.A.
+  url: ''
+  date: '2018-08-04T15:08:02+00:00'
+  date_display: August 4, 2018
+  html: <p>Welcome to home!</p>
+  children:
+  - id: 37224
+    author: mario
+    url: ''
+    date: '2018-08-04T22:05:04+00:00'
+    date_display: August 4, 2018
+    html: <p>Thanks!</p>
+    children: []
+- id: 37231
+  author: Tom Popela
+  url: ''
+  date: '2018-08-06T06:10:20+00:00'
+  date_display: August 6, 2018
+  html: <p>So the things that we spoke about during our Web Engines Hackfest run are happening :) I hope that everything will go smoothly and welcome back home :) (in Spain as well as in Igalia) !</p>
+  children:
+  - id: 37234
+    author: mario
+    url: ''
+    date: '2018-08-06T10:13:40+00:00'
+    date_display: August 6, 2018
+    html: <p>Thank you, Tomas. Guess I'll see you in the next Web Engines Hackfest, maybe even go for another run around Coruña? :-)</p>
+    children:
+    - id: 37235
+      author: Tom Popela
+      url: ''
+      date: '2018-08-06T13:10:08+00:00'
+      date_display: August 6, 2018
+      html: <p>I would love to, but things have changed a little bit on my side as well. I'm leaving the Desktop Team here in Red Hat, so if I come back in the future it won't be work related.</p>
+      children: []
+- id: 37232
+  author: Joaquim Rocha
+  url: https://www.joaquimrocha.com
+  date: '2018-08-06T08:37:49+00:00'
+  date_display: August 6, 2018
+  html: "<p>Thanks for your help while at Endless, Mario! I am happy you're going back home and doing what makes you happy.\r<br>\nBest wishes for all the logistics, but I know everything will be alright. Cheers!</p>"
+  children:
+  - id: 37233
+    author: mario
+    url: ''
+    date: '2018-08-06T10:06:31+00:00'
+    date_display: August 6, 2018
+    html: <p>Thank you. I'm hoping logistics will be alright too... so far it's been a pretty busy couple of weeks non-stop packing and dealing with paperwork and other tenancy-related things, but we're starting to see the light at the end of the tunnel now and couldn't be happier about flying tomorrow, as everything seems to be on track for a smooth landing. Fingers crossed!</p>
+    children: []

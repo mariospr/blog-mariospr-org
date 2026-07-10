@@ -1,0 +1,32 @@
+- id: 11030
+  author: Damien Lespiau
+  url: http://damien.lespiau.name/blog/
+  date: '2013-11-14T01:14:37+00:00'
+  date_display: November 14, 2013
+  html: <p>git log -S. Enough said! :)</p>
+  children:
+  - id: 11044
+    author: mario
+    url: ''
+    date: '2013-11-14T12:12:04+00:00'
+    date_display: November 14, 2013
+    html: <p>That seems to be a different thing, but thanks anyway for sharing</p>
+    children: []
+- id: 11032
+  author: Josh Triplett
+  url: https://joshtriplett.org/
+  date: '2013-11-14T02:05:29+00:00'
+  date_display: November 14, 2013
+  html: '<p>You can actually specify paths directly as paths, separated from the commit ID with a colon, rather than looking up tree IDs for them within a commit:</p>
+
+    <p>git grep search-string commit-or-tag:path/to/subdirectory</p>'
+  children:
+  - id: 11043
+    author: mario
+    url: ''
+    date: '2013-11-14T12:11:29+00:00'
+    date_display: November 14, 2013
+    html: '<p>Cool. I did know of the commit-id:/path/to/file syntax (which I use quite a lot with git show) but I didn''t realize I could use it for this thing as well.</p>
+
+      <p>Thanks for sharing!</p>'
+    children: []

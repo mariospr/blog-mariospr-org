@@ -1,0 +1,82 @@
+baseURL      = "https://mariospr.org/"
+title        = "mariospr.org"
+locale       = "en"
+timeZone     = "UTC"                     # gmt_offset=0, no timezone_string -> dated URLs unambiguous
+theme        = "PaperMod"
+enableRobotsTXT = true
+
+# Individual posts keep their exact WordPress dated URL; the posts SECTION list
+# is relocated to /blog/; category term pages live at /category/<slug>/.
+[permalinks]
+  [permalinks.page]
+    posts = "/:year/:month/:day/:slug/"
+  [permalinks.section]
+    posts = "/blog/"
+  [permalinks.term]
+    categories = "/category/:slug/"
+
+[taxonomies]
+  category = "categories"                # only categories (no tags on this blog)
+
+[pagination]
+  pagerSize = 20                         # matches WP posts_per_page
+
+[services.rss]
+  limit = 10                             # matches WP posts_per_rss
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true                        # render preserved classic-editor HTML / iframes
+  [markup.highlight]
+    noClasses = false
+    guessSyntax = true
+
+[outputs]
+  home     = ["html", "rss"]
+  section  = ["html", "rss"]
+  taxonomy = ["html", "rss"]
+  term     = ["html", "rss"]
+
+[params]
+  author        = "Mario Sánchez Prada"
+  description   = "Ramblings from the dark side of the moon"
+  mainSections  = ["posts"]              # home (/) lists blog posts
+  DateFormat    = "January 2, 2006"      # mirrors WP date_format "F j, Y"
+  ShowReadingTime    = false
+  ShowShareButtons   = false
+  ShowPostNavLinks   = true
+  ShowBreadCrumbs    = true
+  ShowCodeCopyButtons = true
+  ShowFullTextinRSS  = true
+  ShowToc            = false
+  hideFooter         = false
+  comments           = true              # our own read-only comments partial
+
+  [params.assets]
+    disableHLJS = true
+    favicon      = "/wp-content/uploads/2012/08/favicon.ico"
+    favicon16x16 = "/wp-content/uploads/2012/08/favicon.ico"
+    favicon32x32 = "/wp-content/uploads/2012/08/favicon.ico"
+
+# Header navigation
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/blog/"
+    weight     = 10
+  [[menu.main]]
+    identifier = "work"
+    name       = "Work"
+    url        = "/work/"
+    weight     = 20
+  [[menu.main]]
+    identifier = "talks"
+    name       = "Talks"
+    url        = "/talks/"
+    weight     = 30
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = 40

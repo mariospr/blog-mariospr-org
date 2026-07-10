@@ -1,0 +1,27 @@
+- id: 36
+  author: Claudio
+  url: http://www.gnome.org/~csaavedra/
+  date: '2008-06-09T01:35:15+00:00'
+  date_display: June 9, 2008
+  html: <p>Aha! Now I understand why I couldn't find anyone hanging around in irc on friday! :-)</p>
+  children: []
+- id: 37
+  author: mario
+  url: https://mariospr.org
+  date: '2008-06-09T10:11:21+00:00'
+  date_display: June 9, 2008
+  html: '<p>&gt; Aha! Now I understand why I couldn’t find anyone hanging <br>
+
+    &gt; around in irc on friday! :-)<br>
+
+    &gt;<br>
+
+    XDD</p>'
+  children: []
+- id: 38
+  author: apachito
+  url: http://administracion-tic.blogspot.com/
+  date: '2008-06-11T09:05:00+00:00'
+  date_display: June 11, 2008
+  html: <p>Uff, como mola la camiseta de Juanjo...¿dónde se compran?</p>
+  children: []

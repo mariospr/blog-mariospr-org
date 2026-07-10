@@ -1,0 +1,65 @@
+- id: 5128
+  author: Teo Romera
+  url: http://teo.romera.org
+  date: '2013-01-12T12:49:27+00:00'
+  date_display: January 12, 2013
+  html: <p>Mario you sound happy and optimistic (which is your natural state, anyway) and that is what makes things easy ;) You have great talent and attitude and I'm sure you would be successful in anything you do anywhere. Take care and the best of your luck for you and your family!</p>
+  children:
+  - id: 5134
+    author: mario
+    url: ''
+    date: '2013-01-13T01:15:50+00:00'
+    date_display: January 13, 2013
+    html: <p>Thank you! Take care you too!</p>
+    children: []
+- id: 5132
+  author: J.A.
+  url: ''
+  date: '2013-01-12T17:28:05+00:00'
+  date_display: January 12, 2013
+  html: <p>Seems very exciting all your about your new job. Hope to see you around some day!</p>
+  children:
+  - id: 5135
+    author: mario
+    url: ''
+    date: '2013-01-13T01:16:31+00:00'
+    date_display: January 13, 2013
+    html: <p>Sure we'll see each other again one day. At the moment, it's not in my plans to get sucked by a black hole or something! :-)</p>
+    children: []
+- id: 5133
+  author: Jorge y Noe
+  url: ''
+  date: '2013-01-12T21:59:23+00:00'
+  date_display: January 12, 2013
+  html: <p>I'm sure you'll be ok. Good luck in this new  adventure. Please stop sharing those amazing photos or we'll be there by summer "by he face" ;)</p>
+  children:
+  - id: 5136
+    author: mario
+    url: ''
+    date: '2013-01-13T01:17:24+00:00'
+    date_display: January 13, 2013
+    html: <p>Photos? Which photos? :-)</p>
+    children: []
+- id: 5137
+  author: Gil Forcada
+  url: http://gil.badall.net
+  date: '2013-01-13T01:52:41+00:00'
+  date_display: January 13, 2013
+  html: '<p>Nice to see that you are having a nice time (better when the family is together though :)</p>
+
+    <p>All the best to you!</p>'
+  children:
+  - id: 5138
+    author: mario
+    url: ''
+    date: '2013-01-13T01:53:11+00:00'
+    date_display: January 13, 2013
+    html: <p>Thanks!</p>
+    children: []
+- id: 5309
+  author: Mike Blumenkrantz
+  url: http://enlightenment.org
+  date: '2013-01-24T11:11:21+00:00'
+  date_display: January 24, 2013
+  html: <p>Welcome to SRUK (we've been renamed)!  Always good to have more OSS people on board. I'm from the EFL team, though currently I live in conference room 3 on the ground floor. Stop in sometime if you feel like chatting.</p>
+  children: []

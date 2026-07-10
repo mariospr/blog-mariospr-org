@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function runTest()
+{
+   // Get references to the list and the items.
+   list = document.getElementById('list');
+   preSelectedItem = document.getElementById('list_item_1');
+   targetItem = document.getElementById('list_item_2');
+
+   // Change selection
+   preSelectedItem.setAttribute('aria-selected', false);
+   list.setAttribute('aria-activedescendant', targetItem.id);
+   targetItem.setAttribute('aria-selected', true);
+}
+</script>
+</head>
+<body onload="setTimeout(runTest(),3000);">
+  <div role="application">
+    <ul id="list" role="listbox" aria-activedescendant="list_item_1">
+      <li id="list_item_1" role="option" aria-selected="false">foo</li>
+      <li id="list_item_2" role="option" aria-selected="false">bar</li>
+    </ul>
+  </div>
+</body>
+</html>

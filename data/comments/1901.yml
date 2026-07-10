@@ -1,0 +1,28 @@
+- id: 33026
+  author: Matthias Kuhn
+  url: http://www.opengis.ch
+  date: '2015-03-30T14:36:30+00:00'
+  date_display: March 30, 2015
+  html: <p>Just ordered one as well after reading this! So looking forward to being able to use the trackpoint again!</p>
+  children:
+  - id: 33028
+    author: mario
+    url: ''
+    date: '2015-03-30T15:17:46+00:00'
+    date_display: March 30, 2015
+    html: <p>Nice. Hope you will find my experience useful then, but please do read the relevant parts of maintenance manual first. Specifically, do remember to disable the built-in battery before opening the machine from the BIOS, that's a quite important step.</p>
+    children: []
+- id: 33032
+  author: David Weinehall
+  url: ''
+  date: '2015-03-30T22:55:15+00:00'
+  date_display: March 30, 2015
+  html: <p>Wow! I wonder if there's any replacement available for the clickhorror on my ThinkPad Yoga too...</p>
+  children: []
+- id: 33064
+  author: Leszek
+  url: ''
+  date: '2015-04-01T20:01:45+00:00'
+  date_display: April 1, 2015
+  html: "<p>And I adapted myself now to use this clicky touchpad on my Thinkpad E531\r<br>\nBut I only basically use the real click for the left mouse click and then the touch events (like pressing or better touching with two fingers) for middle click and right click (3 finger touch) .\r<br>\nI still prefer the smaller but better touchpad on the t410/420 with real buttons . It simply works and feels better.</p>"
+  children: []

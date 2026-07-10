@@ -1,0 +1,28 @@
+- id: 34
+  author: Andrea Grandi
+  url: http://www.andreagrandi.it
+  date: '2008-04-29T13:13:10+00:00'
+  date_display: April 29, 2008
+  html: '<p>Nice job!<br>
+
+    I hope to see the new release soon :)</p>'
+  children: []
+- id: 35
+  author: mario
+  url: https://mariospr.org
+  date: '2008-04-29T14:05:57+00:00'
+  date_display: April 29, 2008
+  html: '<p>&gt; Nice job!<br>
+
+    Thank you!</p>
+
+    <p>&gt; I hope to see the new release soon<br>
+
+    So do I ;-). Let''s see if Berto manages to get some time to review all the patches sent to the list (mine is only one of them) and then to make the release soon.</p>
+
+    <p>BTW, I''ve updated the post with a new screenshot showing the libnotify support I''ve added last weekend, which allows the tray icon to show a notification when a new song starts being played.</p>
+
+    <p>I hope you like that new feature too :-)</p>
+
+    <p>Cheers</p>'
+  children: []

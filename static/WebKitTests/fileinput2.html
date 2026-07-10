@@ -1,0 +1,18 @@
+<html>
+<body>
+  <input style="position:absolute; left:1; top:1" id="files" type="file" files="caret.html" multiple />
+<script>
+function runTest()
+{
+  window.fileButton = document.getElementById('files');
+  window.fileButton.focus();
+
+  var event = document.createEvent('KeyboardEvent');
+  event.initKeyboardEvent("keydown", true, true, null, "Return")
+  window.fileButton.dispatchEvent(event);
+}
+
+setTimeout("runTest();", 3000)
+</script>
+</body>
+</html>

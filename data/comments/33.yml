@@ -1,0 +1,43 @@
+- id: 61
+  author: Claudio
+  url: ''
+  date: '2009-01-27T23:31:42+00:00'
+  date_display: January 27, 2009
+  html: <p>I think I will be giving you a visit anytime soon :)</p>
+  children: []
+- id: 62
+  author: mario
+  url: https://mariospr.org
+  date: '2009-01-28T00:37:42+00:00'
+  date_display: January 28, 2009
+  html: <p>You're invited whenever you want to come, Claudio! ;-)</p>
+  children: []
+- id: 63
+  author: aperez
+  url: https://blogs.igalia.com/aperez/
+  date: '2009-01-31T21:51:28+00:00'
+  date_display: January 31, 2009
+  html: <p>How it goes... how it goes...! Tiqui-taca!</p>
+  children: []
+- id: 64
+  author: Kirk
+  url: ''
+  date: '2010-04-23T01:29:43+00:00'
+  date_display: April 23, 2010
+  html: '<p>I''m about to buy ps3 and collecting information about the combo PS3+NSLU2+HIFI(onkyo). I gotta say im lost !!! HELP</p>
+
+    <p>Thanks</p>'
+  children: []
+- id: 65
+  author: Jice the Nice
+  url: ''
+  date: '2010-05-07T09:54:45+00:00'
+  date_display: May 7, 2010
+  html: '<p>Yesss !!! well done, I''m also a slug lover running almost the same lenny config as yours.</p>
+
+    <p>I just run transmission daemon instead of rtorrent, becouse of its included light web server.</p>
+
+    <p>My next project on slug is to run xsane scanner server to use my HP scanner from all my portable devices ...</p>
+
+    <p>Slug realy rocks !</p>'
+  children: []

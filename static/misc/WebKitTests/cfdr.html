@@ -1,0 +1,227 @@
+<html>
+<head>
+  <title>Test page</title>
+  <style>
+    a.dottedLink {
+      text-decoration: none;
+      border-bottom: 1px dotted #888;
+      padding-bottom: 1px;
+    }
+
+    div.ariaGridWithBorder {
+      border: 1px solid #000000;
+    }
+
+    div.ariaCell {
+      display:inline;
+      padding: 3px;
+    }
+
+    div.ariaHeader {
+      display:inline;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Embedded objects</h1>
+<p>
+  Here's our logo: <img src="http://live.gnome.org/Accessibility?action=AttachFile&do=get&target=logo.png" alt="GNOME a11y team logo" /> It reminds me of airport security screenings.
+</p>
+<p>
+  Choose:
+  <input id="apples_cb" value="apples" type="checkbox"/><label for="apples_cb">apples</label>
+  <input id="oranges_cb" value="oranges" type="checkbox"/><label for="oranges_cb">oranges</label>
+  (pick one or more)
+</p>
+<p>
+  Choose:
+  <input id="apples_rb" name="rchoice" value="apples" type="radio"/><label for="apples_rb">apples</label>
+  <input id="oranges_rb" name="rchoice" value="oranges" type="radio"/><label for="oranges_rb">oranges</label>
+  (just pick one)
+</p>
+<p>
+  Choose:
+  <select name="fruit">
+    <option>apples</option>
+    <option>oranges</option>
+  </select>
+  (just pick one)
+</p>
+
+<h1>Wrapped lines</h1>
+<p>
+It's not pinin,' it's passed on! This parrot is no more! It has ceased to be! It's expired and gone to meet its maker! This is a late parrot! It's a stiff! Bereft of life, it rests in peace! If you hadn't nailed him to the perch he would be pushing up the daisies! Its metabolical processes are of interest only to historians! It's hopped the twig! It's shuffled off this mortal coil! It's run down the curtain and joined the choir invisible! This.... is an EX-PARROT!
+</p>
+<p>Yet another paragraph, not so long, but with a<br />line break right in the middle.</p>
+
+<h1>List of items</h1>
+<ol>
+<li>text only</li>
+<li><a href="foo">link only</a></li>
+<li>text and a <a href="bar">link</a></li>
+<li>text and <b>some bold text</b></li>
+</ol>
+
+<h1>Combo box</h1>
+<form>
+  <select>
+    <option accesskey="x" value='foo'>foo</option>
+    <option selected value='bar'>bar</option>
+    <option accesskey="y" value='baz'>baz</option>
+    <option accesskey="z" value='foo'>foo</option>
+    <option selected value='bar'>bar</option>
+    <option value='baz'>baz</option>
+  </select>
+</form>
+
+<h1>AtkHyperText and AtkHyperlinks</h1>
+<p>A paragraph with no links at all</p>
+<p>A paragraph with <a href='http://webkit.org'>a link</a> in the middle</p>
+<p>A paragraph with <b>some bold text</b> in the middle</p>
+<p><a href='http://foo.bar.baz/'>A paragraph</a> with <a href='http://bar.baz.foo/'>a link in the middle</a> as well as at the beginning and <a href='http://baz.foo.bar/'>at the end</a></p>
+<p>A paragraph with a <span><a href='http://foo.bar.baz/'>link inside a span node</a></span> in the middle</p>
+<p>
+  A long paragraph with some <a class="dottedLink"
+  href="http://foo">links (with padding and border)</a> in the middle,
+  spanning over several lines of <a class="dottedLink"
+  href="http://foo">text</a>, so we can test caret navigation all
+  across <a class="dottedLink" href="http://foo">them</a>: Lorem ipsum
+  dolor sit amet, consectetur adipisicing elit, sed do
+  eiusmod <a class="dottedLink" href="http://foo">tempor</a>
+  incididunt ut labore et dolore magna <a class="dottedLink"
+  href="http://foo">aliqua</a>.Ut enim ad minim veniam, quis nostrud
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. <a class="dottedLink" href="http://foo">Duis</a> aute
+  irure dolor in in reprehenderit in voluptate velit esse cillum
+  dolore eu fugiat nulla <a class="dottedLink"
+  href="http://foo">pariatur</a>.Excepteur sint occaecat cupidatat
+  non <a class="dottedLink" href="http://foo">proident</a>, sunt in
+  culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+
+<h1>ARIA Sliders</h1>
+<script>
+function update(obj)
+{
+  document.getElementById('val').innerText = obj.value;
+}
+</script>
+<form>
+  <input type=range min=0 max=100 value=50 id=slider onchange="update(this)" >
+  <span id=val><b>50</b></span>
+</form>
+
+<h1>ARIA Roles (to be checked through Accerciser)</h1>
+<p>Simple paragraph</p>
+<p role="grid">A paragraph pretending to be a table ('grid' role)</p>
+
+<label>A label</label><br/>
+<label role="heading">A label with a 'heading' role</label>
+
+<form>A form with a button <button name="button" value="Button">Click me!</button></form>
+<form role="button">A form with a 'button' role <button name="button" value="Button">Click me!</button></form>
+
+<div>Just some text inside a div</div>
+<div role="textbox">A div pretending to be an entry ('textbox' role)</div>
+
+<h1>ARIA crash (shouldn't happen!)</h1>
+<p>Just having the following elements in the HTML shouldn't make WebKit crash</p>
+<div role="menuitem">Div with 'menuitem' ARIA role as child of the 'body' element</div>
+<div role="option">Div with 'option' ARIA role as child of the 'body' element</div>
+
+<h1>ARIA tables VS HTML Tables</h1>
+
+<h2>HTML Tables</h2>
+
+<h3>A table without headers</h3>
+<table>
+  <tr><td>foo</td><td>bar</td></tr>
+</table>
+
+<h3>A table with headers</h3>
+<table>
+  <tr><th>Odd</th><th>Even</th></tr>
+  <tr><td>1</td><td>2</td></tr>
+  <tr><td>3</td><td>4</td></tr>
+</table>
+
+<h3>A table with a border</h3>
+<table border=1>
+  <tr><th>Odd</th><th>Even</th></tr>
+  <tr><td>1</td><td>2</td></tr>
+  <tr><td>3</td><td>4</td></tr>
+</table>
+
+<h2>ARIA tables (ARIA grids)</h2>
+
+<h3>An ARIA grid without headers</h3>
+<div role="grid" class="ariaGrid">
+  <div role="row" class="ariaRow">
+    <div role="gridcell" class="ariaCell">foo</div>
+    <div role="gridcell" class="ariaCell">bar</div>
+  </div>
+</div>
+
+<h3>An ARIA grid with headers</h3>
+<div role="grid" class="ariaGrid">
+  <div role="row" class="ariaRow">
+    <div role="columnheader" class="ariaHeader">Odd</div>
+    <div role="columnheader" class="ariaHeader">Even</div>
+  </div>
+  <div role="row" class="ariaRow">
+    <div role="gridcell" class="ariaCell">1</div>
+    <div role="gridcell" class="ariaCell">2</div>
+  </div>
+  <div role="row" class="ariaRow">
+    <div role="gridcell" class="ariaCell">3</div>
+    <div role="gridcell" class="ariaCell">4</div>
+  </div>
+</div>
+
+<h3>An ARIA grid with border</h3>
+<div role="grid" class="ariaGridWithBorder">
+  <div role="row" class="ariaRow">
+    <div role="columnheader" class="ariaHeader">Odd</div>
+    <div role="columnheader" class="ariaHeader">Even</div>
+  </div>
+  <div role="row">
+    <div role="gridcell" class="ariaCell">1</div>
+    <div role="gridcell" class="ariaCell">2</div>
+  </div>
+  <div role="row">
+    <div role="gridcell" class="ariaCell">3</div>
+    <div role="gridcell" class="ariaCell">4</div>
+</div>
+</div>
+
+<h1>ARIA menus, menu bars and menu items (to be checked through Accerciser)</h1>
+<div id="menubar" role="menubar" aria-owns="menuitem1 menuitem2">
+  <div id="menuitem1" role="menuitem" tabindex="0" aria-owns="submenu1">
+    Menu 1
+    <ul id="submenu1" role="menu">
+      <li id="menuitem11" role="menuitemradio" tabindex="-1">
+        Menu item 1.1
+      </li>
+      <li id="menuitem12" role="menuitemradio" tabindex="-1">
+        Menu item 1.2
+      </li>
+    </ul>
+  </div>
+  <div id="menuitem2" role="menuitem" tabindex="0" aria-owns="submenu2">
+    Menu 2
+    <ul id="submenu2" role="menu">
+      <li id="menuitem21" role="menuitemradio" tabindex="-1">
+        Menu item 2.1
+      </li>
+      <li id="menuitem22" role="menuitemradio" tabindex="-1">
+        Menu item 2.2
+      </li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

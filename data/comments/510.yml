@@ -1,0 +1,88 @@
+- id: 179
+  author: Christophe Fergeau
+  url: ''
+  date: '2011-05-28T22:58:23+00:00'
+  date_display: May 28, 2011
+  html: '<p>&gt; I would love to see it also in other distros (specially in Fedora)</p>
+
+    <p>Any reason why you are not pushing it yourself? No time/no interest in doing it? I was wondering this when reading frogr release notes, and then I read your blog post :)</p>'
+  children: []
+- id: 180
+  author: mario
+  url: https://mariospr.org
+  date: '2011-05-29T00:07:30+00:00'
+  date_display: May 29, 2011
+  html: '<p>@Christophe Fergeau:</p>
+
+    <p>&gt; &gt; I would love to see it also in other distros (specially in Fedora)<br>
+
+    &gt; <br>
+
+    &gt; Any reason why you are not pushing it yourself? No time/no interest in doing it?<br>
+
+    &gt; I was wondering this when reading frogr release notes, and then I read your blog post :)</p>
+
+    <p>Well, guess the reason for that is that I''m not very fond on packaging related tasks (specially when it comes to know the process of proposing something to be packaged in a distro works), so that''s why I went for this "really lazy" approach of releasing the tarball, providing some "homegrown" packages for ubuntu (using LP''s PPA) and Fedora 15 (using my own machine) and then asking the world for helping me to release frogr in distros, in a more "professional" way :-)</p>
+
+    <p>In the other hand, I must confess that the fact that my mate Berto already took care of packaging frogr for debian (whose immediate consequence is that frogr is already being packaged in the next release of Ubuntu "Oniric Oscelot") got me even more relaxed in these matters because I kind of came to the conclusion that at some point the package would "magically" appear in those other distros apart than debian and ubuntu (yes, I kind of assumed that some kind of "automatic importing process" from debian to distro X exists).</p>
+
+    <p>So you see, because of one reason or another, I never got the right combo of motivation and free time to devote to learning more about these matters, and that''s the true reason behind me using this lazy approach.</p>
+
+    <p>But perhaps you''re right, and I should try to find the right slot to learn more about these matters and try to push them myself.</p>
+
+    <p>Thanks for triggering this in my mind,  although I''m afraid I can''t commit to find the right time to push this forward anytime soon, so any help that anybody could provide will be still really appreciated ;-)</p>'
+  children: []
+- id: 181
+  author: Christophe Fergeau
+  url: ''
+  date: '2011-05-30T09:35:42+00:00'
+  date_display: May 30, 2011
+  html: <p>Oh I wasn't asking for such a detailed explanation, "I'm don't like doing packaging" would have been plenty enough for me, I perfectly understand this :) Since frogr became my favourite flickr uploader, and since I'm on f15, maybe I'll look at pushing it in the coming weeks (no promises though ;)</p>
+  children: []
+- id: 182
+  author: mario
+  url: https://mariospr.org
+  date: '2011-05-30T09:54:28+00:00'
+  date_display: May 30, 2011
+  html: '<p>@Christophe Fergeau:</p>
+
+    <p>&gt; Oh I wasn’t asking for such a detailed explanation, “I’m don’t <br>
+
+    &gt; like doing packaging” would have been plenty enough for me, <br>
+
+    &gt; I perfectly understand this</p>
+
+    <p>Well, it''s not that I "don''t like it" but more something like "I don''t feel confident enough to do it right and did not have yet the time/motivation to get the knowledget to do it right, so I just put it off" :-)</p>
+
+    <p>&gt; Since frogr became my favourite flickr uploader, and since I’m <br>
+
+    &gt; on f15, maybe I’ll look at pushing it in the coming weeks (no <br>
+
+    &gt; promises though</p>
+
+    <p>Happy to hear it''s your favourite uploader, and happy as well to hear you are thinking of helping with pushing it to fedora.</p>
+
+    <p>Thanks!</p>'
+  children: []
+- id: 183
+  author: mario
+  url: https://mariospr.org
+  date: '2011-05-31T15:16:48+00:00'
+  date_display: May 31, 2011
+  html: '<p>JFTR, frogr is finally on its way to Fedora o/. All the work being done is tracked in redhat bugzilla at:</p>
+
+    <p>https://bugzilla.redhat.com/show_bug.cgi?id=708765</p>
+
+    <p>Yay!</p>'
+  children: []
+- id: 184
+  author: mario
+  url: https://mariospr.org
+  date: '2011-05-31T19:29:13+00:00'
+  date_display: May 31, 2011
+  html: '<p>Aargh!... As I already said in many places, "Users of frogr 0.5 in Ubuntu, please upgrade the package asap"</p>
+
+    <p>https://mail.gnome.org/archives/frogr-list/2011-May/msg00007.html</p>
+
+    <p>:_(</p>'
+  children: []

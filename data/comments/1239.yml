@@ -1,0 +1,46 @@
+- id: 5030
+  author: Astron
+  url: ''
+  date: '2012-12-30T14:56:04+00:00'
+  date_display: December 30, 2012
+  html: "<p>Sorry for the following. I am sure you're hoping for more positive feedback\r<br>\n* * *\r<br>\nOn having both a (meaningful, i.e. not just \"Quit\") GMenu and an application menu... I think that's the worst possible decisions one can make with Gnome software currently, because to me as a user it is completely intransparent why some menu items aren't any more in the application menu.</p>\n<p>I had this problem with Totem/Videos 3.6 where I wondered if it could still open files from in-app. Of course it could, only the menu entry had now wandered into the GMenu. Which I didn't assume was there (coming from the GMenu-free Totem 3.4). This mess led to me finding my way around the new Totem roughly three days later. Which is a lot of time, given how I watched two seasons of Futurama in between...</p>\n<p>If there is no application menu at all and the application starts in the windowless \"card\" mode by default, I am more prone to check application menu for its contents, though. Which doesn't mean the usability obstacle goes away completely, though.</p>"
+  children:
+  - id: 5031
+    author: mario
+    url: ''
+    date: '2012-12-30T18:09:49+00:00'
+    date_display: December 30, 2012
+    html: '<p>No need to apologize, I''m open both to positive and negative feedback. As long as it''s constructive and/or useful criticism I''m more than happy to see what people think out there about this release.</p>
+
+      <p>Actually, I can understand your concerns very well because something similar happened to me with some applications when I upgraded to Fedora 18 some weeks ago, even if most of those apps (e.g. Empathy, Nautilus) didn''t have any menu in the window, just in the Shell''s top panel.</p>
+
+      <p>However, I''m not sure whether this is just a matter of "get used to this new thing" or whether it''s plainly wrong to have both menus available in the same app. In my mind (and it seems according to GtkApplication docs too [1]) the application menu is something that contains options that make sense for the whole application, while the menu bar contains options (and submenus) that are meaningful for the specific windows they''re place in.</p>
+
+      <p>And in that sense I think frogr is doing the right thing (or at least I can say I''ve tried to do it so): things as "Preferences" or "Authorize" are in the -global- application menu, while other things such as "Edit details" or "Upload all" are in the menu bar in frogr''s main window. And this also seem to make sense when you run frogr in other desktop environments such as Unity or OS X, where the application menu and menu bar are rendered together in the same place.</p>
+
+      <p>In any case, the main intention here was to port frogr to GMenu and start using the application menu right now, but it was never discarded at all the idea of getting rid of the menu bar completely in a future release, providing it makes sense (perhaps adding a ''Gear'' button -like in Epiphany- would make more sense). And your comment was to me a nice reminder in this regard so thank you for bringing it up.</p>
+
+      <p>Thanks for the feedback!</p>
+
+      <p>[1] http://developer.gnome.org/gtk3/3.4/GtkApplication.html</p>'
+    children: []
+- id: 5036
+  author: Alex
+  url: ''
+  date: '2012-12-30T22:33:50+00:00'
+  date_display: December 30, 2012
+  html: '<p>God, I hate GMenu. If you make an app with that then when that app runs in other DE (such as Xfce), the menubar will be borked (see https://bugzilla.gnome.org/show_bug.cgi?id=678919). The "genius" solution to this devised by the GTK guys? Make two different UIs: one with GMenu and one without it. So now you''ve increased fragmentation and make it harder for developers to make apps for Linux. Not to mention the "global" menu is a stupid idea. It only works for the simplest of applications and it''s not clear for the user which actions are on the "global" menu and which are on the menubar.</p>'
+  children:
+  - id: 5038
+    author: mario
+    url: ''
+    date: '2012-12-31T00:08:09+00:00'
+    date_display: December 31, 2012
+    html: '<p>Well, I think it''s quite a subjective matter in the end. As for me, I like the global menu a lot, and it''s something I''ve been waiting for since some time ago already, thus I''m quite happy now we have it in GNOME 3, which is the environment I use 99% of the time.</p>
+
+      <p>As for the integration outside GNOME, well... frogr is primarily designed to be a GNOME application and that''s why so focused in working well in that platform, as its main priority. After all, that''s the platform where it''s mainly developed, tested and used (at least that I know of).</p>
+
+      <p>That doesn''t mean, however, that I oppose to it working and integrating better with other desktops (that would be cool, indeed), and I''m open to integrate any patch that might fix that in a reasonable way, but it''s important to notice that my main focus right now is the GNOME desktop, and that''s what''s currently driving the development of frogr at the moment (hence the decision to migrate to GMenu).</p>
+
+      <p>Thanks for the feedback, in any case. I''ll bear it in mind.</p>'
+    children: []

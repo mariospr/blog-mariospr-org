@@ -1,0 +1,148 @@
+- id: 112
+  author: zerwas
+  url: ''
+  date: '2010-02-04T00:33:35+00:00'
+  date_display: February 4, 2010
+  html: "<p>Instructions for Ubuntu 9.10:</p>\n<p>sudo add-apt-repository ppa:webkit-team/ppa<br>\nsudo add-apt-repository ppa:webkit-team/epiphany<br>\nsudo apt-get update &amp;&amp; sudo apt-get install epiphany-browser epiphany-browser-data\uFEFFepiphany-extensions</p>"
+  children: []
+- id: 113
+  author: mario
+  url: https://mariospr.org
+  date: '2010-02-04T00:44:41+00:00'
+  date_display: February 4, 2010
+  html: <p>Thanks for your comment, zerwas, even though I was using ubuntu since 4.10 I tend to forget very often the "Ubuntu way" of doing some things and tend to do it more complicated :-)</p>
+  children: []
+- id: 114
+  author: Kosta
+  url: ''
+  date: '2010-02-04T00:47:10+00:00'
+  date_display: February 4, 2010
+  html: <p>Wow, thats a fast piece of software !</p>
+  children: []
+- id: 115
+  author: Torben
+  url: ''
+  date: '2010-02-04T01:15:00+00:00'
+  date_display: February 4, 2010
+  html: <p>I wish there would be a full featured Adblocker. I want to play fair and therefore I deacivate Adblock Plus in Firefox on most sites (sad enough it lacks a blacklisting mode instead of whitelisting). Only if PopUps or Sounds come in my way, I block the pest in self defense.</p>
+  children: []
+- id: 116
+  author: adel
+  url: ''
+  date: '2010-02-04T01:16:00+00:00'
+  date_display: February 4, 2010
+  html: <p>I don't understand what the hell are you doing!!! you have all elements to build the best browser for gnome, what held you back? today, at this age, all of you, still can't build fine browser?</p>
+  children: []
+- id: 117
+  author: mike
+  url: ''
+  date: '2010-02-04T01:23:23+00:00'
+  date_display: February 4, 2010
+  html: '<p>adel: please elaborate.</p>'
+  children: []
+- id: 118
+  author: mike
+  url: ''
+  date: '2010-02-04T01:24:10+00:00'
+  date_display: February 4, 2010
+  html: '<p>@mario: yeah, when talking about easy, maybe you should update your post with zerwas'' instructions ;)</p>'
+  children: []
+- id: 119
+  author: mike
+  url: ''
+  date: '2010-02-04T01:34:54+00:00'
+  date_display: February 4, 2010
+  html: '<p>when "activating" pop-up windows, you can''t deactivate them? ;)</p>
+
+    <p>well, anyway, I will stick with Chrome for now (so I don''t have to move 50+ tabs :D), which isn''t perfect either, but damn fast and I have to admit, that I prefer its slick interface, even though it doesn''t look like a GTK/GNOME app.</p>
+
+    <p>will keep the PPA to watch your efforts though. Best of luck :)</p>'
+  children: []
+- id: 120
+  author: adel
+  url: ''
+  date: '2010-02-04T02:09:32+00:00'
+  date_display: February 4, 2010
+  html: '<p>mike: Edit &gt; Actions == crash... every time</p>
+
+    <p>and what that boring default interface?</p>
+
+    <p>why do you have to use gtk tabs for browser tabs? can''t you build custom widget so I can see and easy access all opened tabs?</p>
+
+    <p>why "killall epiphany-browser" is the only way I have to save session?</p>
+
+    <p>just take a look at what cool kids doing nowadays and learn</p>'
+  children: []
+- id: 121
+  author: mike
+  url: ''
+  date: '2010-02-04T02:18:42+00:00'
+  date_display: February 4, 2010
+  html: '<p>adel: agreed, really a lot of catching up to do...</p>'
+  children: []
+- id: 122
+  author: ethana2
+  url: ''
+  date: '2010-02-04T02:43:47+00:00'
+  date_display: February 4, 2010
+  html: <p>ETA for SquirrelFish?</p>
+  children: []
+- id: 123
+  author: mario
+  url: https://mariospr.org
+  date: '2010-02-04T09:51:17+00:00'
+  date_display: February 4, 2010
+  html: '<p>@mike: post updated with zerwas instructions. Good point</p>
+
+    <p>@Torben, @adel, @mike, @ethana2: Thanks for your comments. Obviously Epiphany 2.29 is not an stable release yet (just the last release from the repository, on its way towards 2.30) at all and still needs to be improved (as any other piece of software) a lot... and the way for getting that is obviously working hard but also giving feedback, so please check if your issues are already filed in bugzilla and report them in case they''re not.</p>
+
+    <p>Actually that was the second side of my intentions with this post, to push people forward to try it, and hopefully report issues, as you did :-)</p>
+
+    <p>Thanks!</p>'
+  children: []
+- id: 124
+  author: Xan
+  url: ''
+  date: '2010-02-04T09:56:23+00:00'
+  date_display: February 4, 2010
+  html: <p>@ethana2 Epiphany (well, WebKitGTK+) has supported SquirrelFish since a long time ago.</p>
+  children: []
+- id: 125
+  author: Dave Morley
+  url: ''
+  date: '2010-02-07T21:08:24+00:00'
+  date_display: February 7, 2010
+  html: '<p>There is an alternative method to install the ppa which may be of interest to new users.</p>
+
+    <p>Goto System-&gt;Administration-&gt;Software Sources.<br>
+
+    Click on the other software tab.<br>
+
+    Click on add.<br>
+
+    Type in ppa:webkit-team<br>
+
+    Click on add source.</p>
+
+    <p>Repeat but with ppa:webkit-team/epiphany</p>
+
+    <p>Click on close that will reload the the repository list and include the keys.  You can use this method for any ppa''s registered on launchpad.</p>'
+  children: []
+- id: 126
+  author: Paul
+  url: ''
+  date: '2010-04-23T20:36:18+00:00'
+  date_display: April 23, 2010
+  html: '<p>@adel: "and what that boring default interface?</p>
+
+    <p>why do you have to use gtk tabs for browser tabs? can’t you build custom widget so I can see and easy access all opened tabs?"</p>
+
+    <p>yeah lets have every app look different, that''ll look nice, fantastic idea. facepalm.</p>'
+  children: []
+- id: 127
+  author: DanD
+  url: ''
+  date: '2010-11-02T04:29:50+00:00'
+  date_display: November 2, 2010
+  html: <p>+1 to Paul! Used to love Epiphany for it's simplicity. It had just enough extensions to make it palatable. Take some hits from Chrome and restore Epiphany to glory.</p>
+  children: []

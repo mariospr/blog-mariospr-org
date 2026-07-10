@@ -1,0 +1,28 @@
+- id: 30
+  author: Dougle
+  url: http://wearebeef.co.uk
+  date: '2009-10-30T14:32:41+00:00'
+  date_display: October 30, 2009
+  html: <p>I did this without deleting all of my content, all of my photo tags got reassigned to a random user, i guess facebook reuse their old user ids as much as possible.</p>
+  children: []
+- id: 31
+  author: mario
+  url: https://mariospr.org
+  date: '2009-10-30T14:41:32+00:00'
+  date_display: October 30, 2009
+  html: <p>Yes, I already thought of that, but I've just preferred to make sure not even a picture of mine remained there when I was out... maybe too paranoid, I know... and I still have the feeling that a lot of things will stay there (such as comments I made), but at least this way I feel better and (perhaps naively) safer :-)</p>
+  children: []
+- id: 32
+  author: Claudio
+  url: ''
+  date: '2009-10-30T15:31:23+00:00'
+  date_display: October 30, 2009
+  html: <p>I just shared the link to this blog entry in facebook, and made a funny comment about it. Shame that you can't see it. :-P</p>
+  children: []
+- id: 33
+  author: Adrian Perez
+  url: https://blogs.igalia.com/aperez/
+  date: '2009-10-30T15:58:14+00:00'
+  date_display: October 30, 2009
+  html: <p>Welcome aboard to the ship of ex-Facebook users, arrrrr!! :-D</p>
+  children: []

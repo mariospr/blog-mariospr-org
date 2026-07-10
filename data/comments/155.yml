@@ -1,0 +1,50 @@
+- id: 107
+  author: Daniel Alonso
+  url: ''
+  date: '2010-01-13T12:40:44+00:00'
+  date_display: January 13, 2010
+  html: '<p>Not that I find your effort unuseful, au contrair, but I must correct you as you can already publish/tag a batch of photos, for example:</p>
+
+    <p>1) Go to the Photos application<br>
+
+    2) Click in the menu and select "Share images"<br>
+
+    3) Select as many images as you want to share<br>
+
+    4) Click the "Share" button and chose the sharing service (bluetooth, email, facebook, flickr, ...)</p>
+
+    <p>The samething for tagging</p>'
+  children: []
+- id: 108
+  author: mario
+  url: https://mariospr.org
+  date: '2010-01-13T13:12:58+00:00'
+  date_display: January 13, 2010
+  html: '<p>:-O I didn''t know of that, really. Thanks for sharing.</p>
+
+    <p>Actually, after taking a look into it I found that basically the three reasons I pointed out in the post to use frogr in the N900 are pointless since almost all of those use cases can be achieved with the sharing app: mutliple tagging and uploading and setting privacy options.</p>
+
+    <p>The only thing I still haven''t found is the ability to edit name and description for several pictures at the same time... so perhaps there''s still hope for someone else to find frogr useful in the device :-)</p>
+
+    <p>Anyway, I''m happy with frogr in the desktop and your comment didn''t discourage me from keeping working on the port for Fremantle, but just encouraged me to actually make a difference with the sharing app one day.</p>
+
+    <p>Thanks!</p>'
+  children: []
+- id: 110
+  author: Rohan
+  url: http://www.forum.nokia.com/info/sw.nokia.com/id/c05693a1-265c-4c7f-a389-fc227db4c465/Maemo_5_SDK.html
+  date: '2010-01-28T09:57:00+00:00'
+  date_display: January 28, 2010
+  html: <p>The Maemo 5 SDK has been updated to provide developers with features of sending via Bluetooth technology and email, as well as improved documentation that will be of interest to MMS developers.For developers who have already installed an earlier version of the SDK, the update can be obtained using the apt package management tool in scratchbox.The SDK includes all the tools developers need to write, test, compile, and package for distribution Maemo 5 software on a Linux based computer.The Maemo 5 SDK enables development of applications by the use of Qt and GTK+.</p>
+  children: []
+- id: 111
+  author: Rohan
+  url: http://www.forum.nokia.com/info/sw.nokia.com/id/c05693a1-265c-4c7f-a389-fc227db4c465/Maemo_5_SDK.html
+  date: '2010-02-01T12:33:56+00:00'
+  date_display: February 1, 2010
+  html: '<p>The Maemo platform is built on open source components, also offers a powerful Linux-based  platform to create innovative mobile applications that deliver PC –style interaction and features. <br>
+
+    See the link below for more information:<br>
+
+    http://www.forum.nokia.com/Technology_Topics/Device_Platforms/Maemo.xhtml</p>'
+  children: []

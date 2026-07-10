@@ -1,0 +1,99 @@
+- id: 2824
+  author: Sumana Harihareswara
+  url: http://brainwane.net
+  date: '2012-11-20T05:00:25+00:00'
+  date_display: November 20, 2012
+  html: <p>This was a moving, touching post.  Good luck and thank you for sharing your story.</p>
+  children:
+  - id: 2906
+    author: mikhas
+    url: http://mikhas.posterous.com
+    date: '2012-11-20T18:20:56+00:00'
+    date_display: November 20, 2012
+    html: <p>Agree. I can understand how only very loyal employees/partners would apologize for leaving a company. And even less would take the time to write a whole blog post about it ;-)</p>
+    children:
+    - id: 2909
+      author: mario
+      url: ''
+      date: '2012-11-20T18:33:05+00:00'
+      date_display: November 20, 2012
+      html: '<p>Thanks to you too, Michael. You can be certain it took "quite some time" to organize my ideas and write this long post.</p>
+
+        <p>So, in that way, it''s quite rewarding to see people reaching me, both through public and private channels, to deliver this kind of feedback.</p>
+
+        <p>Thank you all</p>'
+      children: []
+- id: 2854
+  author: Jordi Mallach
+  url: http://oskuro.net/
+  date: '2012-11-20T10:43:32+00:00'
+  date_display: November 20, 2012
+  html: '<p>Vaya, qué sorpresa! Te deseo muchísima suerte en la nueva etapa, y sobre todo que disfrutes de estos dos meses. Quien pudiese!</p>
+
+    <p>Tengo muuuucha curiosidad por saber dónde irás a parar.</p>
+
+    <p>Suerte!</p>
+
+    <p>Jordi</p>'
+  children: []
+- id: 2905
+  author: Claudio
+  url: ''
+  date: '2012-11-20T18:15:39+00:00'
+  date_display: November 20, 2012
+  html: <p>¿Supongo que ya te he dicho más de una vez que te deseo lo mejor, no? :)</p>
+  children: []
+- id: 2908
+  author: mario
+  url: ''
+  date: '2012-11-20T18:26:37+00:00'
+  date_display: November 20, 2012
+  html: '<p>@Sumana: Thank you! It''s always difficult to talk about these things, so I''m glad you enjoyed reading this post.</p>
+
+    <p>@Jordi: Mil gracias. Ahora toca descansar y recargar las baterías un poco para el reto que se avecina. Aunque tampoco creo que pueda relajarme demasiado, no va conmigo :-)</p>
+
+    <p>@Claudio: Pues no me suena :)... pero ya que lo comentas... gracias!</p>'
+  children: []
+- id: 2922
+  author: Julián
+  url: ''
+  date: '2012-11-20T22:18:32+00:00'
+  date_display: November 20, 2012
+  html: '<p>I''m surprised to hear that you and your family are moving abroad! Wow!</p>
+
+    <p>I guess this is going to drastically reduce the probability of casually seeing you again and talking about the good old times at the university :P Ok, I digress... All I wanted to say was that I sincerely wish you and your family the best of luck.</p>
+
+    <p>Take care!</p>'
+  children:
+  - id: 2973
+    author: mario
+    url: ''
+    date: '2012-11-21T10:53:42+00:00'
+    date_display: November 21, 2012
+    html: <p>Thanks!</p>
+    children: []
+- id: 3606
+  author: Paul Mellors
+  url: ''
+  date: '2012-12-02T10:27:25+00:00'
+  date_display: December 2, 2012
+  html: '<p>You don''t know me, but i''ve just read your post and can only wish you success in your future endeavours</p>
+
+    <p>Good luck :)</p>'
+  children:
+  - id: 3613
+    author: mario
+    url: ''
+    date: '2012-12-02T12:12:42+00:00'
+    date_display: December 2, 2012
+    html: '<p>You''re right, I don''t know you. Yet I truly appreciate you''ve read my post and wished me good luck :-)</p>
+
+      <p>Thanks!</p>'
+    children: []
+- id: 3773
+  author: Joone Hur (@joone)
+  url: ''
+  date: '2012-12-05T09:36:02+00:00'
+  date_display: December 5, 2012
+  html: "<p>Hi Mario,\r<br>\nGood luck with the new job. See you at the hackfest!</p>"
+  children: []

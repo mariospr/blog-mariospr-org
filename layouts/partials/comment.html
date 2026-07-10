@@ -1,0 +1,21 @@
+{{- /* Renders a single migrated comment and, recursively, its replies. */}}
+<article class="comment" id="comment-{{ .id }}">
+  <header class="comment-meta">
+    {{- if .url }}
+    <a class="comment-author" href="{{ .url }}" rel="nofollow ugc noopener">{{ .author }}</a>
+    {{- else }}
+    <span class="comment-author">{{ .author }}</span>
+    {{- end }}
+    <time class="comment-date" datetime="{{ .date }}">{{ .date_display }}</time>
+  </header>
+  <div class="comment-body">
+    {{ .html | safeHTML }}
+  </div>
+  {{- with .children }}
+  <div class="comment-children">
+    {{- range . }}
+    {{- partial "comment.html" . }}
+    {{- end }}
+  </div>
+  {{- end }}
+</article>

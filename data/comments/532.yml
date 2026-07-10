@@ -1,0 +1,73 @@
+- id: 185
+  author: noname
+  url: ''
+  date: '2011-08-13T14:55:11+00:00'
+  date_display: August 13, 2011
+  html: <p>I always find it kind of emarrasing when some free software site, like frogrs, claim it's licensed under "GNU Public License". It proves that people didn't even read the headline of the license they used for their software when they can't even get the name right (and on a legal matter I wonder if this means the licensing terms are unknown, since there's no GNU Public License).</p>
+  children: []
+- id: 186
+  author: mario
+  url: https://mariospr.org
+  date: '2011-08-13T15:58:54+00:00'
+  date_display: August 13, 2011
+  html: '<p>@noname: It was a typo and now it''s fixed, so thank you for pointing it out. Worse of all, it looks like I also screw it up in the announcement mails to the gnome.org mailing lists (damm c&amp;p!), so I will try not to commit the same mistake again in the future.</p>
+
+    <p>Still, I don''t think the "way" you pointed it out was a good one, honestly, it sounds more like an attack than like "willing to help".</p>
+
+    <p>It was a typo, period, and now it''s fixed. If you took your time to check all the places in frogr''s git repository where the GPL is mentioned, there is NOT a single place where the license is badly named (and if there was, it wouldn''t be the end of the world either), which proves that it was a typo, a "human" mistake, like all those we all (and I bet that you too) make every now and then.</p>
+
+    <p>So don''t worry, the license terms of frogr are not unknown, as they are clearly stated along with a big COPYING file in the tarball. And that''s what matters at the end, not the text line that you paste in a mail or in a wiki, which is more error-prone IMHO.</p>
+
+    <p>So, again thank you for pointing it out (I''m the first one who doesn''t like this kind of mistakes at all), but next time I''d ask you for being a little bit more human and less aggressive on your comments.</p>
+
+    <p>Thanks</p>'
+  children: []
+- id: 187
+  author: Rahul Sundaram
+  url: ''
+  date: '2011-08-13T16:44:11+00:00'
+  date_display: August 13, 2011
+  html: <p>I am a Fedora contributor and could package it up for Fedora.  Would be helpful if you publish the srpm,  specifically the spec file.  I could use that as a starting point</p>
+  children: []
+- id: 188
+  author: mario
+  url: https://mariospr.org
+  date: '2011-08-13T17:45:16+00:00'
+  date_display: August 13, 2011
+  html: '<p>@Rahul: thanks a lot for your interest on packaging frogr for Fedora. I''m also a Fedora user and would also love as well to see it packaged soon.</p>
+
+    <p>Actually, the work to package it has been already started, so if you want to help with that feel free to visit RH bug 708765 (https://bugzilla.redhat.com/show_bug.cgi?id=708765), which is were this is being tracked down at the moment.</p>
+
+    <p>Thanks!</p>
+
+    <p>PS: See the last comment (https://bugzilla.redhat.com/show_bug.cgi?id=708765#c61) where all the data needed, I hope, like the .spec file are referenced by links</p>'
+  children: []
+- id: 189
+  author: noname again
+  url: ''
+  date: '2011-08-15T11:22:00+00:00'
+  date_display: August 15, 2011
+  html: '<p>Hi again!</p>
+
+    <p>Sorry if you didn''t like what I wrote. It was not meant to be hurtful or even specifically aimed at anyone. It''s just such a common "typo" that I wonder if there are more websites that gets the name right then wrong (with that particular version of wrong, not just a random error) and the "phenomena" itself gets me a bit frustrated.... So it was no more then an outloud *sigh* from me.... I''ll try to keep it down in the future to not disturb anyone. ;)<br>
+
+    Great to see you''ve fixed it but now there are just millions of more places left out there to fix. I wonder if it''s worth to even sigh about it. :P</p>
+
+    <p>Have a great day!</p>'
+  children: []
+- id: 190
+  author: mario
+  url: https://mariospr.org
+  date: '2011-08-15T17:20:57+00:00'
+  date_display: August 15, 2011
+  html: '<p>@noname: thanks for your second comment, it was indeed clarifying and as such I appreciate it, specially because (as I said) I''m the kind of person who does not like at all those kind of mistakes, even if my human and sometimes absent minded nature makes me commit them all the time...</p>
+
+    <p>Anyway, no problem from my side, and as I said thank you for pointing it out, since now it''s fixed in the website and I have already written down a note in my particular "frogr releasing checklist" not to forget about the announcement mail next time I release a new version.</p>'
+  children: []
+- id: 191
+  author: Rahul Sundaram
+  url: ''
+  date: '2011-08-16T01:12:34+00:00'
+  date_display: August 16, 2011
+  html: <p>Yeah.  I will take a look at the review request to try and push this forward.  Thanks</p>
+  children: []

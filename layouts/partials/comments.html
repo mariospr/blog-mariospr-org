@@ -1,0 +1,14 @@
+{{- /* Static, read-only rendering of comments migrated from WordPress.
+       Data lives in data/comments/<wp_id>.yml (nested by parent). */}}
+{{- with .Params.wp_id }}
+{{- $c := index hugo.Data.comments (printf "%v" .) }}
+{{- with $c }}
+<section class="comments" id="comments">
+  <h2>Comments</h2>
+  {{- range . }}
+  {{- partial "comment.html" . }}
+  {{- end }}
+  <p class="comments-closed"><em>Comments are closed on this archived post.</em></p>
+</section>
+{{- end }}
+{{- end }}

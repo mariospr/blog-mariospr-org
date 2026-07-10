@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="390mm"
+   height="183mm"
+   viewBox="0 0 39000 18300"
+   version="1.1"
+   stroke-width="28.222"
+   stroke-linejoin="round"
+   xml:space="preserve"
+   id="svg510"
+   sodipodi:docname="stats-commits-large.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata516"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs514" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1016"
+   id="namedview512"
+   showgrid="false"
+   inkscape:zoom="0.23880342"
+   inkscape:cx="259.62777"
+   inkscape:cy="345.82677"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg510" />
+ 
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 17152,17198 L 1772,17198 1772,591 32532,591 32532,17198 17152,17198 Z"
+   id="path4" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,17197 L 1772,17197"
+   id="path6" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,15351 L 1772,15351"
+   id="path8" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,13506 L 1772,13506"
+   id="path10" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,11661 L 1772,11661"
+   id="path12" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,9815 L 1772,9815"
+   id="path14" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,7971 L 1772,7971"
+   id="path16" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,6126 L 1772,6126"
+   id="path18" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,4280 L 1772,4280"
+   id="path20" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,2435 L 1772,2435"
+   id="path22" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,590 L 1772,590"
+   id="path24" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1772,17347 L 1772,17197"
+   id="path26" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1772,17347 L 1772,17197"
+   id="path28" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 4568,17347 L 4568,17197"
+   id="path30" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 4568,17347 L 4568,17197"
+   id="path32" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 7364,17347 L 7364,17197"
+   id="path34" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 7364,17347 L 7364,17197"
+   id="path36" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 10161,17347 L 10161,17197"
+   id="path38" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 10161,17347 L 10161,17197"
+   id="path40" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 12957,17347 L 12957,17197"
+   id="path42" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 12957,17347 L 12957,17197"
+   id="path44" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 15754,17347 L 15754,17197"
+   id="path46" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 15754,17347 L 15754,17197"
+   id="path48" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 18550,17347 L 18550,17197"
+   id="path50" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 18550,17347 L 18550,17197"
+   id="path52" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 21346,17347 L 21346,17197"
+   id="path54" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 21346,17347 L 21346,17197"
+   id="path56" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 24142,17347 L 24142,17197"
+   id="path58" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 24142,17347 L 24142,17197"
+   id="path60" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 26939,17347 L 26939,17197"
+   id="path62" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 26939,17347 L 26939,17197"
+   id="path64" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 29735,17347 L 29735,17197"
+   id="path66" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 29735,17347 L 29735,17197"
+   id="path68" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,17347 L 32532,17197"
+   id="path70" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 32532,17347 L 32532,17197"
+   id="path72" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1772,17197 L 32532,17197"
+   id="path74" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,17197 L 1772,17197"
+   id="path76" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,17197 L 1772,17197"
+   id="path78" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,15351 L 1772,15351"
+   id="path80" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,15351 L 1772,15351"
+   id="path82" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,13506 L 1772,13506"
+   id="path84" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,13506 L 1772,13506"
+   id="path86" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,11661 L 1772,11661"
+   id="path88" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,11661 L 1772,11661"
+   id="path90" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,9815 L 1772,9815"
+   id="path92" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,9815 L 1772,9815"
+   id="path94" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,7971 L 1772,7971"
+   id="path96" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,7971 L 1772,7971"
+   id="path98" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,6126 L 1772,6126"
+   id="path100" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,6126 L 1772,6126"
+   id="path102" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,4280 L 1772,4280"
+   id="path104" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,4280 L 1772,4280"
+   id="path106" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,2435 L 1772,2435"
+   id="path108" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,2435 L 1772,2435"
+   id="path110" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,590 L 1772,590"
+   id="path112" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1622,590 L 1772,590"
+   id="path114" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1772,17197 L 1772,590"
+   id="path116" />
+ <path
+   fill="none"
+   stroke="rgb(0,69,134)"
+   stroke-width="80"
+   stroke-linejoin="round"
+   d="M 1772,16920 L 4568,16800 7364,16818 10161,16763 12957,16634 15754,16412 18550,16302 21346,16135 24142,16689 26939,15084 29735,14087 32532,13626"
+   id="path118" />
+ <path
+   fill="none"
+   stroke="rgb(255,66,14)"
+   stroke-width="80"
+   stroke-linejoin="round"
+   d="M 1772,16920 L 4568,16523 7364,16145 10161,15711 12957,15148 15754,14364 18550,13469 21346,12408 24142,11900 26939,9787 29735,6679 32532,3108"
+   id="path120" />
+ <text
+   class="TextShape"
+   id="text128"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan126"><tspan
+       class="TextPosition"
+       x="991"
+       y="17817"
+       id="tspan124"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan122">April ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text136"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan134"><tspan
+       class="TextPosition"
+       x="3827"
+       y="17817"
+       id="tspan132"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan130">May ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text144"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan142"><tspan
+       class="TextPosition"
+       x="6557"
+       y="17817"
+       id="tspan140"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan138">June ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text152"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan150"><tspan
+       class="TextPosition"
+       x="9433"
+       y="17817"
+       id="tspan148"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan146">July ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text160"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan158"><tspan
+       class="TextPosition"
+       x="11951"
+       y="17817"
+       id="tspan156"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan154">August ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text168"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan166"><tspan
+       class="TextPosition"
+       x="14378"
+       y="17817"
+       id="tspan164"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan162">September ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text176"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan174"><tspan
+       class="TextPosition"
+       x="17465"
+       y="17817"
+       id="tspan172"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan170">October ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text184"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan182"><tspan
+       class="TextPosition"
+       x="20024"
+       y="17817"
+       id="tspan180"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan178">November ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text192"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan190"><tspan
+       class="TextPosition"
+       x="22820"
+       y="17817"
+       id="tspan188"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan186">December ‘18</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text200"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan198"><tspan
+       class="TextPosition"
+       x="25842"
+       y="17817"
+       id="tspan196"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan194">January ‘19</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text208"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan206"><tspan
+       class="TextPosition"
+       x="28545"
+       y="17817"
+       id="tspan204"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan202">February ‘19</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text216"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan214"><tspan
+       class="TextPosition"
+       x="31607"
+       y="17817"
+       id="tspan212"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan210">March ‘19</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text224"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan222"><tspan
+       class="TextPosition"
+       x="1284"
+       y="17343"
+       id="tspan220"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan218">0</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text232"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan230"><tspan
+       class="TextPosition"
+       x="808"
+       y="15497"
+       id="tspan228"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan226">200</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text240"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan238"><tspan
+       class="TextPosition"
+       x="808"
+       y="13652"
+       id="tspan236"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan234">400</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text248"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan246"><tspan
+       class="TextPosition"
+       x="808"
+       y="11807"
+       id="tspan244"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan242">600</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text256"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan254"><tspan
+       class="TextPosition"
+       x="808"
+       y="9961"
+       id="tspan252"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan250">800</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text264"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan262"><tspan
+       class="TextPosition"
+       x="569"
+       y="8116"
+       id="tspan260"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan258">1000</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text272"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan270"><tspan
+       class="TextPosition"
+       x="569"
+       y="6271"
+       id="tspan268"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan266">1200</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text280"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan278"><tspan
+       class="TextPosition"
+       x="569"
+       y="4425"
+       id="tspan276"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan274">1400</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text288"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan286"><tspan
+       class="TextPosition"
+       x="569"
+       y="2580"
+       id="tspan284"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan282">1600</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text296"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="423px"
+     font-weight="400"
+     id="tspan294"><tspan
+       class="TextPosition"
+       x="569"
+       y="735"
+       id="tspan292"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan290">1800</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text304"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan302"><tspan
+       class="TextPosition"
+       x="1481"
+       y="16714"
+       id="tspan300"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan298">30</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text312"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan310"><tspan
+       class="TextPosition"
+       x="4277"
+       y="16594"
+       id="tspan308"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan306">43</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text320"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan318"><tspan
+       class="TextPosition"
+       x="7073"
+       y="16612"
+       id="tspan316"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan314">41</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text328"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan326"><tspan
+       class="TextPosition"
+       x="9870"
+       y="16557"
+       id="tspan324"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan322">47</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text336"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan334"><tspan
+       class="TextPosition"
+       x="12666"
+       y="16428"
+       id="tspan332"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan330">61</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text344"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan342"><tspan
+       class="TextPosition"
+       x="15463"
+       y="16206"
+       id="tspan340"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan338">85</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text352"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan350"><tspan
+       class="TextPosition"
+       x="18259"
+       y="16096"
+       id="tspan348"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan346">97</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text360"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan358"><tspan
+       class="TextPosition"
+       x="20910"
+       y="15929"
+       id="tspan356"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan354">115</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text368"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan366"><tspan
+       class="TextPosition"
+       x="23852"
+       y="16483"
+       id="tspan364"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan362">55</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text376"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan374"><tspan
+       class="TextPosition"
+       x="26503"
+       y="14878"
+       id="tspan372"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan370">229</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text384"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan382"><tspan
+       class="TextPosition"
+       x="29299"
+       y="13881"
+       id="tspan380"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan378">337</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text392"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan390"><tspan
+       class="TextPosition"
+       x="32096"
+       y="13420"
+       id="tspan388"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan386">387</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text400"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan398"><tspan
+       class="TextPosition"
+       x="1481"
+       y="16714"
+       id="tspan396"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan394">30</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text408"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan406"><tspan
+       class="TextPosition"
+       x="4277"
+       y="16317"
+       id="tspan404"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan402">73</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text416"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan414"><tspan
+       class="TextPosition"
+       x="6927"
+       y="15939"
+       id="tspan412"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan410">114</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text424"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan422"><tspan
+       class="TextPosition"
+       x="9724"
+       y="15505"
+       id="tspan420"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan418">161</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text432"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan430"><tspan
+       class="TextPosition"
+       x="12520"
+       y="14942"
+       id="tspan428"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan426">222</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text440"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan438"><tspan
+       class="TextPosition"
+       x="15317"
+       y="14158"
+       id="tspan436"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan434">307</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text448"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan446"><tspan
+       class="TextPosition"
+       x="18113"
+       y="13263"
+       id="tspan444"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan442">404</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text456"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan454"><tspan
+       class="TextPosition"
+       x="20910"
+       y="12202"
+       id="tspan452"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan450">519</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text464"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan462"><tspan
+       class="TextPosition"
+       x="23706"
+       y="11694"
+       id="tspan460"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan458">574</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text472"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan470"><tspan
+       class="TextPosition"
+       x="26503"
+       y="9581"
+       id="tspan468"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan466">803</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text480"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan478"><tspan
+       class="TextPosition"
+       x="29154"
+       y="6473"
+       id="tspan476"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan474">1140</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text488"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="700"
+     id="tspan486"><tspan
+       class="TextPosition"
+       x="31951"
+       y="2902"
+       id="tspan484"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan482">1527</tspan></tspan></tspan></text>
+
+ <path
+   fill="none"
+   stroke="rgb(0,69,134)"
+   stroke-width="80"
+   stroke-linejoin="round"
+   d="M 34641,8803 L 35441,8803"
+   id="path490" />
+ <path
+   fill="none"
+   stroke="rgb(255,66,14)"
+   stroke-width="80"
+   stroke-linejoin="round"
+   d="M 34641,9459 L 35441,9459"
+   id="path492" />
+ <text
+   class="TextShape"
+   id="text500"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="400"
+     id="tspan498"><tspan
+       class="TextPosition"
+       x="35549"
+       y="8975"
+       id="tspan496"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan494">Commits</tspan></tspan></tspan></text>
+
+ <text
+   class="TextShape"
+   id="text508"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="494px"
+     font-weight="400"
+     id="tspan506"><tspan
+       class="TextPosition"
+       x="35549"
+       y="9631"
+       id="tspan504"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan502">Commits Acc.</tspan></tspan></tspan></text>
+
+</svg>

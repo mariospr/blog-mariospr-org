@@ -1,0 +1,29 @@
+- id: 5
+  author: Ron Rothman
+  url: http://ronrothman.com/public/leftbraned/archives/2006/02/28/password-security-its-not-that-hard-but-you-still-cant-get-it-right/
+  date: '2006-07-26T22:25:53+00:00'
+  date_display: July 26, 2006
+  html: <p>thanks for the gaim info; good to know.  <a href="http://ronrothman.com/public/leftbraned/archives/2006/02/28/password-security-its-not-that-hard-but-you-still-cant-get-it-right/" rel="nofollow">storing passwords</a> in plaintext is lame, period.  shame on those lazy developers!</p>
+  children: []
+- id: 6
+  author: anonymous
+  url: ''
+  date: '2007-10-17T06:10:50+00:00'
+  date_display: October 17, 2007
+  html: <p>But then, just about the only way to encrypt the password is to use yet another password (like the master passwords in Firefox, or any type of "keychain" product (I believe in Mac OS X, it's the same password as your password)). If it's some kind of built-in encryption (requiring no user input), it's even worse than storing the password plain-text---the user, not seeing his password in plaintext, assumes that it's stored securely. However, a determined cracker can still get to the password, since if it requires no user input, the security must rely on the secrecy of the algorithm (not much of a security, especially in a program whose source is available publicly).</p>
+  children: []
+- id: 7
+  author: Mario
+  url: https://mariospr.org
+  date: '2007-10-17T08:28:10+00:00'
+  date_display: October 17, 2007
+  html: '<p>I''m sorry, but I don''t agree with you. I think there were several ways  to avoid this kind of surprises without using plain text files. For instance:</p>
+
+    <p>- Letting the user to use its GnuPG key (if available) to encrypt the file, so only such the user could open that file. This could be a bit annoying since you always would have to enter your GPG passphrase when opening Gaim, but at least you only would have to enter a password once per session.... and could be useful if you (like me) use several IM accounts.</p>
+
+    <p>- Letting the user to define and use a new, ad-hoc, "master password" (as is used in mozilla) to encrypt such that file. And if you  don''t want to be disturbed every time you open gaim, that password could be stored in a safe place out of gaim like, for instance, in the gnome-keyring-manager.</p>
+
+    <p>- Using a "random" password which requires no user input that would be generated only once (first time you create an account and check ''remember my password'' option, for instance). To avoid annoying the user, gnome-keyring-manager could also store that "random" key to be used in the future.</p>
+
+    <p>And of course, as I said before in my post, "at least, I think showing an informative message warning the user about how his/her password is going to be stored could be a good thing in order to avoid this kind of surprises".</p>'
+  children: []

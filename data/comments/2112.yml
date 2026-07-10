@@ -1,0 +1,53 @@
+- id: 35748
+  author: Khurshid Alam
+  url: ''
+  date: '2015-12-30T08:32:28+00:00'
+  date_display: December 30, 2015
+  html: <p>Can I upload to picasa or new Google photos (it uses picasa data api) ?</p>
+  children:
+  - id: 35750
+    author: mario
+    url: ''
+    date: '2015-12-30T11:42:05+00:00'
+    date_display: December 30, 2015
+    html: <p>I'm afraid not. Frogr is a flickr-specific app, so only that API is supported.</p>
+    children: []
+- id: 35749
+  author: Alexandre Franke
+  url: http://www.alexandrefranke.com/
+  date: '2015-12-30T10:23:23+00:00'
+  date_display: December 30, 2015
+  html: <p>Too bad you didn't send an announcement to gnome-i18n list a bit before the release, you would have gotten more complete translations.</p>
+  children:
+  - id: 35752
+    author: mario
+    url: ''
+    date: '2015-12-30T11:54:44+00:00'
+    date_display: December 30, 2015
+    html: '<p>You are perfectly right, but as wrong as it sounds the thing is that I did not know until yesterday that I''d be releasing frogr now (did it in an exceptionally rare chunk of spare time), and I have no idea if I''m going to have time again anytime soon, so I had to make the call between releasing now "as it is" or waiting for translations and releasing at some other unknown time in the future. And seeing that the last 0.11 release happened almost one year ago, I decided to go with the first option :).</p>
+
+      <p>But yes, it sucks to have broken translations anyway, hopefully the 1.1 release will be better in that regard.</p>'
+    children:
+    - id: 35754
+      author: Alexandre Franke
+      url: http://www.alexandrefranke.com/
+      date: '2015-12-30T11:01:51+00:00'
+      date_display: December 30, 2015
+      html: <p>Thanks for your quick reaction and the announcement on the list.</p>
+      children: []
+- id: 35751
+  author: Tanty
+  url: http://www.andresgomez.org
+  date: '2015-12-30T11:44:54+00:00'
+  date_display: December 30, 2015
+  html: '<p>Awesome!!!</p>
+
+    <p>Thanks a lot, Mario!</p>'
+  children:
+  - id: 35753
+    author: mario
+    url: ''
+    date: '2015-12-30T11:55:13+00:00'
+    date_display: December 30, 2015
+    html: <p>You're welcome! Hopefully it's a bit less broken this time :-)</p>
+    children: []

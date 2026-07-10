@@ -1,0 +1,14 @@
+- id: 36842
+  author: Bastián
+  url: ''
+  date: '2016-10-05T02:21:17+00:00'
+  date_display: October 5, 2016
+  html: <p>Oh, great news ... unfortunately for the latest news on Yahoo and privacy, I decided to remove my Yahoo/Flickr account. Frogr is excellent and I hope to go ahead.</p>
+  children:
+  - id: 36844
+    author: mario
+    url: ''
+    date: '2016-10-05T08:48:20+00:00'
+    date_display: October 5, 2016
+    html: <p>Thanks for sharing and for the kind words, Bastián. I myself no longer use Flickr as much as I did in the past but I don't think I'm removing my account anytime soon, so hopefully frogr will still be alive for a while, in case you want to come back! :-)</p>
+    children: []

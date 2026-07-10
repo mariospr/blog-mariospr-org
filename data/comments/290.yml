@@ -1,0 +1,28 @@
+- id: 134
+  author: fpp
+  url: ''
+  date: '2010-12-06T15:37:42+00:00'
+  date_display: December 6, 2010
+  html: <p>Why do you post your Android category to the Maemo Planet ?...</p>
+  children: []
+- id: 135
+  author: mario
+  url: https://mariospr.org
+  date: '2010-12-06T16:21:13+00:00'
+  date_display: December 6, 2010
+  html: '<p>@fpp: it was a mistake while selecting the tags (too many "Planet x" tags). Now it''s fixed. Thanks for noticing</p>'
+  children: []
+- id: 136
+  author: mario
+  url: https://mariospr.org
+  date: '2010-12-06T19:33:31+00:00'
+  date_display: December 6, 2010
+  html: <p>I've just removed the tag and mailed to planet AT maemo.org telling about the issue, but the post keeps showing up there. I think we'll have to wait a bit tmore...</p>
+  children: []
+- id: 137
+  author: fpp
+  url: ''
+  date: '2010-12-06T20:52:59+00:00'
+  date_display: December 6, 2010
+  html: <p>No problemo, thanks !</p>
+  children: []

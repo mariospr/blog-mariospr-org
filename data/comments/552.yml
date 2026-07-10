@@ -1,0 +1,23 @@
+- id: 193
+  author: nacho
+  url: ''
+  date: '2011-08-19T19:46:00+00:00'
+  date_display: August 19, 2011
+  html: <p>cool stuff, btw any chance on making a fedora package?</p>
+  children: []
+- id: 194
+  author: mario
+  url: https://mariospr.org
+  date: '2011-08-19T21:17:31+00:00'
+  date_display: August 19, 2011
+  html: '<p>@nacho: it''s on its way :-)<br>
+
+    https://bugzilla.redhat.com/show_bug.cgi?id=708765</p>'
+  children: []
+- id: 195
+  author: mario
+  url: https://mariospr.org
+  date: '2011-08-20T16:28:00+00:00'
+  date_display: August 20, 2011
+  html: "<p>@nacho: From now on, you can also easily install frogr in Fedora 14 and Fedora 15, both for i386 and x86_64 architectures:</p>\n<p>* Fedora 14: http://tinyurl.com/3myhzkc<br>\n  * Fedora 15: http://tinyurl.com/3cj6cbu</p>"
+  children: []

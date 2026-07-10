@@ -1,0 +1,44 @@
+- id: 80
+  author: Patryk "patrys" Zawadzki
+  url: http://room-303.com/blog/
+  date: '2009-09-01T11:52:43+00:00'
+  date_display: September 1, 2009
+  html: <p>Wouldn't it make sense to make the frog's eyes red and blue? ;)</p>
+  children: []
+- id: 81
+  author: mario
+  url: https://mariospr.org
+  date: '2009-09-01T11:58:26+00:00'
+  date_display: September 1, 2009
+  html: '<p>I don''t know... I''ll ask the "artist" then ;-)</p>
+
+    <p>Adrián, what do you think?</p>'
+  children: []
+- id: 82
+  author: Adrian Perez
+  url: https://blogs.igalia.com/aperez/
+  date: '2009-09-01T12:15:24+00:00'
+  date_display: September 1, 2009
+  html: <p>I tried to follow the colours of that old game, Frogger. If you take a look to a screenshot (like <a href="http://yourseosucks.com/files/2009/02/atari-frogger-1984-arcade-game-screenshot.jpg" rel="nofollow">this one</a>) you will notice that the eyes look magenta/purplish. That was the closest colour I have found in the Tango palette, because I tried to follow the Tango conventions. I could make a version with red eyes (of course there are red shades in the palette), but I think that it is a nice tribute to the game :-D</p>
+  children: []
+- id: 83
+  author: Patryk "patrys" Zawadzki
+  url: http://room-303.com/blog/
+  date: '2009-09-01T16:28:52+00:00'
+  date_display: September 1, 2009
+  html: <p>Actually I thiught of making one eye red and one blue so it follows the Flickr logo.</p>
+  children: []
+- id: 84
+  author: devolute
+  url: http://www.devolute.net
+  date: '2009-09-01T16:51:43+00:00'
+  date_display: September 1, 2009
+  html: <p>I think this is just what we need as current Gnome-flickr organisers are a little lacking.  Good luck with the development and thanks!</p>
+  children: []
+- id: 85
+  author: mario
+  url: https://mariospr.org
+  date: '2009-09-01T17:16:15+00:00'
+  date_display: September 1, 2009
+  html: <p>Thanks! We're doing it our best :-)</p>
+  children: []

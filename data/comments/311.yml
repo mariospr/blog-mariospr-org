@@ -1,0 +1,46 @@
+- id: 141
+  author: korbe
+  url: ''
+  date: '2010-12-13T15:53:19+00:00'
+  date_display: December 13, 2010
+  html: '<p>Good jobs all. :D</p>
+
+    <p>Thanks.</p>'
+  children: []
+- id: 142
+  author: Alex
+  url: ''
+  date: '2010-12-13T15:57:26+00:00'
+  date_display: December 13, 2010
+  html: <p>Russian text is meaningless. What was that supposed to mean?</p>
+  children: []
+- id: 143
+  author: mario
+  url: https://mariospr.org
+  date: '2010-12-13T16:46:32+00:00'
+  date_display: December 13, 2010
+  html: '<p>@Alex: Ask Diego, he''s the author :-)</p>'
+  children: []
+- id: 144
+  author: guijemont
+  url: http://emont.org/blog
+  date: '2010-12-13T18:41:41+00:00'
+  date_display: December 13, 2010
+  html: '<p>My guess is the Russian text comes from that: http://goo.gl/6T03F</p>'
+  children: []
+- id: 145
+  author: mario
+  url: https://mariospr.org
+  date: '2010-12-13T18:44:51+00:00'
+  date_display: December 13, 2010
+  html: '<p>@guijemont: now you mention it... it rings a bell!</p>'
+  children: []
+- id: 146
+  author: stenny
+  url: ''
+  date: '2010-12-16T22:44:37+00:00'
+  date_display: December 16, 2010
+  html: '<p>can you build a checkout without installing gtk-doc yet?</p>
+
+    <p>can you build a checkout without dbus yet?</p>'
+  children: []

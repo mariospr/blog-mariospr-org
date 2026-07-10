@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>WebKitGTK+: Status and roadmap to WebKit2</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <!-- metadata -->
+    <meta name="generator" content="S5" />
+    <meta name="version" content="1.0" />
+    <meta name="presdate" content="20120204" />
+    <meta name="author" content="Philippe Normand and Mario Sanchez Prada" />
+    <meta name="company" content="Igalia S.L." />
+    <!-- configuration parameters -->
+    <meta name="defaultView" content="slideshow" />
+    <meta name="controlVis" content="hidden" />
+    <!-- style sheet links -->
+    <link rel="stylesheet" href="s5/ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+    <link rel="stylesheet" href="s5/ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+    <link rel="stylesheet" href="s5/ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+    <link rel="stylesheet" href="s5/ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+    <!-- S5 JS -->
+    <script src="s5/ui/default/slides.js" type="text/javascript"></script>
+
+    <style>
+    .centered {text-align: center; width: 100%; margin-right: 0 auto; margin-left: 0 auto; }
+    </style>
+</head>
+
+<body>
+
+<div class="layout">
+    <div id="controls"><!-- DO NOT EDIT --></div>
+    <div id="currentSlide"><!-- DO NOT EDIT --></div>
+    <div id="header"></div>
+    <div id="footer">
+        <div style="float:right; position: relative; left:0px;">
+          <img style="height: 90%; padding-top: 0.4em; padding-bottom:0; padding-right: 0.5em;" src="igalia.png">
+        </div>
+        <div style="margin-left: -5px;">
+          <h1>WebKitGtk+: Status and roadmap to WebKit2</h1>
+        </div>
+    </div>
+</div>
+
+<div class="presentation">
+
+    <div class="slide">
+      <img src="igalia-bn.png" align="right"><br />
+        <h1 style="padding-top: 10%;">WebKitGtk+:<br /><span  style="font-size: 0.85em;">Status and roadmap to WebKit2</span></h1>
+        <div style="padding-top: 5%; line-height: 2em; font-size: 0.9em;">
+          <h3>Philippe Normand <span style="font-size: 0.8em;">&lt;philn@igalia.com&gt;</span></h3>
+          <h3>Mario Sánchez Prada <span style="font-size: 0.8em;">&lt;mario@igalia.com&gt;</span></h3>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>What is WebKit?</h1>
+        <div style="margin-top:3%">
+          <img style="margin-left: 5%; width:37%;" src="webkit-arch.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>What is WebKitGTK+?</h1>
+        <div style="margin-top:3%">
+          <img style="margin-left: 5%; width:37%;" src="webkit-arch.png">
+          <img style="margin-left: 5%; width:51.3%;" src="webkitgtk-arch.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Who is using it?</h1>
+        <div class="centered">
+          <img style="margin-top:5%; width:100%" src="wkgtk-apps.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div style="margin-top:5%">
+          <h1><i>Previously on WebKitGTK+...</i></h1> <!-- 1.4.1 on April 2011 / 1.4.2 on July 2011-->
+          <ul>
+            <li>GObject bindings for the DOM</li>
+            <li>Support for GTK+ 3.x</li>
+            <li>Improved HTML5 support</li>
+            <li>WebSockets</li>
+            <li>Disk network cache (libsoup)</li>
+            <li>WebGL support</li>
+            <li>Full drag-and-drop support</li>
+            <li>More accessible</li>
+            <li>Increased test coverage (up to 26000 tests)</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div style="margin-top:5%">
+          <h1><i>Stable release</i> (1.6)</h1> <!-- 1.6.1 on September 2011 / 1.6.2 on February 2012-->
+          <ul>
+            <li>GTK+ 3.x is default. Kept GTK+ 2.x support</li>
+            <li>More GObject bindings for the DOM</li>
+            <li>Independant JavaScriptCore library</li>
+            <li>Basic support for WebKit2 (WebKit2GTK+)</li>
+            <li>Spell checking APIs</li>
+            <li>Lots of bugfixes</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>WebKit2:<span style="font-size: 0.95em;"> split process model</span></h1>
+        <div class="centered">
+          <img style="margin-top:10%; width:99%" src="webkit2.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>WebKit2:<span style="font-size: 0.95em;"> API & Process Boundaries</span></h1>
+        <div class="centered">
+            <img style="margin-top: 5%; width:99%;" src="webkitvswebkit2-stack.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>WebKit2:<span style="font-size: 0.95em;"> API & Process Boundaries</span></h1>
+        <div class="centered">
+            <img style="margin-top: 5%; width:99%;" src="webkit2vschromium-stack.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>WebKit2:<span style="font-size: 0.95em;"> Some details</span></h1>
+        <div style="margin-top:5%">
+          <ul>
+            <li>Three different processes:
+              <ul style="line-height: 1.3em">
+                <li>UI Process </li>
+                <li>Web Process</li>
+                <li>Plugin Process</li>
+              </ul>
+            </li>
+            <br/>
+            <li>IPC Mechanisms:
+              <ul style="line-height: 1.3em">
+                <li>CoreIPC - an abstraction for general message passing, including event handling (sockets)</li>
+                <li>DrawingArea - an abstraction for a cross-process drawing area (mmaped file)</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>WebKit2:<span style="font-size: 0.95em;"> Current status</span></h1>
+        <div style="margin-top:5%">
+          <ul>
+            <li>Apple and Qt already released WebKit2 browsers</li>
+            <li>Cross-platform C API exists, internally used</li>
+            <li>GObject API <i>Work-In-Progress</i> (WebKit2GTK+)</li>
+            <li>Most challenges of the split process model solved</li>
+            <li>Tests running, need to deploy more test bots</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1><i>Unstable releases</i> (1.7.x)</h1>
+        <div style="margin-top:5%">
+          <ul>
+            <li>More WebKit2GTK+ API written</li>
+            <li>Drag'n'drop on WebKit2GTK+</li><!--  (1.7.1) -->
+            <li>WebInspector on WebKit2GTK+</li><!-- Initial implementation (1.7.1) -->
+            <li>Support for gtk-doc on WebKit2GTK+</li><!--  (1.7.1) -->
+            <li>MiniBrowser ported to WebKit2GTK+ API</li><!--  (1.7.2) -->
+            <li>Initial implementation of WebAudio</li><!--  (1.7.3) -->
+            <li>WebGL enabled by default</li><!--  (1.7.3) -->
+            <li>Initial support for accelerated compositing</li><!--  (1.7.3) -->
+            <li>Performance boost (e.g. JavaScript, rendering...)</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1><i>Upcoming releases</i> (1.8, 1.10...)</h1>
+        <div style="margin-top:5%">
+          <ul>
+            <li>Keep working on the WebKit2GTK+ API</li>
+            <li>Accelerated compositing (OpenGL)</li>
+            <li>Implement fullscreen HTML5 support (Video)</li>
+            <li>Finish WebAudio implementation</li>
+            <li>Port multimedia to GStreamer 0.11</li>
+            <li>HW accelerated Video rendering</li>
+            <li>Accessibility enabled on WebKit2GTK+</li>
+            <li>Port more apps to WebKit2GTK+ (yelp, ephy...)</li>
+            <li>...</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Accelerated compositing</h1>
+        <div class="centered">
+          <img style="margin-top:15%; width:98%;" src="accelerated_compositing.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Fullscreen HTML5 support</h1>
+        <a href="demos/fullscreen/fullscreen.html">
+          <img style="margin-left:3%; margin-top:5%; width:95%" src="fs-video.png">
+        </a>
+        <div class="centered" style="font-size: 0.55em">
+        <br />(The <i>HTML5</i> logo is <i>CC Attribution 3.0
+        Unported</i>, by the <i>World Wide Web Consortium</i>)
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Accessibility on WebKit2GTK+</h1>
+        <div class="centered">
+          <img style="margin-top:5%; width:99%" src="WK2-a11y.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Accessibility on WebKit2GTK+</h1>
+        <div class="centered">
+          <img style="margin-top:5%; width:99%" src="WK2-a11y-2.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Accessibility on WebKit2GTK+</h1>
+        <div class="centered">
+          <img style="margin-top:2%; width:93%" src="demos/devhelp-wk2-a11y.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Wrapping up</h1>
+        <div style="margin-top:5%">
+          <ul>
+            <li>Mature port of WebKit, used everywhere</li>
+            <li>Very active (and open!) development process</li>
+            <li>Perfectly suitable for writing modern browsers</li>
+            <li>Great option for embedded systems</li>
+            <li>Also great for web-based desktop applications</li>
+            <li>Comes with a promising future (WebKit2, AC...)</li>
+            <li>Released regularly (every 6 months)</li>
+            <li>It's accessible! ;-)</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Reporting bugs and Contributing</h1>
+        <div style="margin-top:5%">
+          <ul style="font-size: 1.2em">
+            <li>http://bugs.webkit.org</li>
+            <li>http://webkitgtk.org</li>
+            <li>http://webkit.org</li>
+            <li>Mailing lists:
+              <ul style="line-height: 1.2em">
+                <li><i>webkit-gtk@lists.webkit.org</i></li>
+                <li><i>webkit-dev@lists.webkit.org</i></li>
+              </ul>
+            </li>
+            <li><i>IRC</i> channels on <i>irc.freenode.net</i>:
+              <ul style="line-height: 1.2em">
+                <li><i>#webkitgtk+</i> and <i>#webkit</i></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="centered" style="margin-top: 10%; font-size: 2em; line-height: 2em">
+        Q&A<br/>
+        Thanks for attending!
+        </div>
+        <div class="centered" style="margin-top: 12%; font-size: 1.2em; line-height: 1.4em">
+        Philippe Normand <span style="font-size: 0.8em;">&lt;philn@igalia.com&gt;</span><br />
+        Mario Sánchez Prada <span style="font-size: 0.8em;">&lt;mario@igalia.com&gt;</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

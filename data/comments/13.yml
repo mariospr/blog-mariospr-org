@@ -1,0 +1,48 @@
+- id: 10
+  author: khigia
+  url: ''
+  date: '2006-11-23T03:35:13+00:00'
+  date_display: November 23, 2006
+  html: '<p>I just begin to interest myself to Erlang, and your project is great for a newby to learn how to make an application. Thanks.<br>
+
+    I like the "erlang on rails" script. But I also found Erlware (http://erlware.org/) which is another "on railer".</p>'
+  children: []
+- id: 11
+  author: mario
+  url: https://mariospr.org
+  date: '2006-11-23T09:46:38+00:00'
+  date_display: November 23, 2006
+  html: '<p>Thanks a lot for your comment. I had no idea about erlware before you wrote about it. I''ll take a look into that URL as soon as I have some spare time ( not yet :( ).</p>
+
+    <p>And of course... feel free to ask me for any doubt you have about eFortunes. I''ll be glad to help you with that (or at least try it).</p>
+
+    <p>See you</p>'
+  children: []
+- id: 12
+  author: martin logan
+  url: ''
+  date: '2006-12-02T00:51:02+00:00'
+  date_display: December 2, 2006
+  html: '<p>I just noticed your interest in erlware - erlware is a not a web framework as such, but a standard build system that supports the creation of OTP applications.  It is a solid foundation for good erlang applications and offers features like standard instalation and doc generation build targets as well as higher level features like log rotation.  The build system is explained in the trap exit HowTo at http://wiki.trapexit.org/index.php/Building_An_OTP_Application<br>
+
+    you can also direct questions at the mailling list linked off of www.erlware.org under contacts.</p>
+
+    <p>Cheers,<br>
+
+    Martin</p>'
+  children: []
+- id: 13
+  author: mario
+  url: https://mariospr.org
+  date: '2006-12-05T11:35:53+00:00'
+  date_display: December 5, 2006
+  html: '<p>Nowadays, I had no enough spare time yet to take a deep look into erlware as I liked to, but your comment made me visit the link you pointed out and I founded so much interesting for my erlang learning purposes.</p>
+
+    <p>I think "Erlang On Rails" script from my colleague Javi Muñoz is good enough for learning (In fact, I''m using it right now for easily create new erlang apps), but the truth is that, for bigger applications some tool like erlware is almost mandatory... or just mandatory, in order to have a easy way to make robust and "standard" erlang applications with installation and doc generation support, as you pointed out in your post.</p>
+
+    <p>And of course... thanks for your interest in my blog. Is good and nice to see how people reads your humble contributions to the world... even when the constribution is something like this ;)</p>
+
+    <p>Regards,<br>
+
+    Mario</p>'
+  children: []

@@ -1,0 +1,22 @@
+- id: 24
+  author: veepeeh
+  url: ''
+  date: '2010-04-14T17:59:35+00:00'
+  date_display: April 14, 2010
+  html: '<p>Hi!</p>
+
+    <p>I''m pretty much newbie when it comes to *nix things, but I have my own concerns about the security of doing this. As far as I know, Linux doesn''t use specifically advanced hashing algorithms to save passwords. Althought it''s more secure than saving them in plaintext, I would see that as an huge security risk compromising your disk encryption when it comes to the computing power attacker probably has. Bruteforcing MD5/SHA1/SHA512 hashes isn''t that difficult, and definitely a lot easier than doing the same to any good encryption algorithm, AES for example. Am I right? Do you recommend any precautions against this?</p>
+
+    <p>- veepeeh</p>'
+  children: []
+- id: 25
+  author: mario
+  url: https://mariospr.org
+  date: '2010-04-14T19:08:59+00:00'
+  date_display: April 14, 2010
+  html: '<p>To be honest, I''m a newbie on these issues as well and I''ve never had thought about this thing before, but I agree it could be a security risk and I''m grateful to you for having noticed that.</p>
+
+    <p>Anyway, I stopped using that one year ago, when I decided to go for a better layout in my laptop, which basically consists on having a small /boot partition and the rest of the disk as a single partition encrypted with LUKS, and inside of it, a LVM group to allow me the flexibility of having logical volumes on it.</p>
+
+    <p>A very common layout nowadays that allows me better security and, at the same time, a lot of flexibility.</p>'
+  children: []

@@ -1,0 +1,96 @@
+- id: 67
+  author: shS
+  url: ''
+  date: '2009-02-19T14:34:44+00:00'
+  date_display: February 19, 2009
+  html: '<p>Thank you mario! <br>
+
+    I have NVIDIA Quadro NVS 140M and was struggling with this problem for a while now and your solutions seems to be working (so far no glitches).</p>
+
+    <p>Thank you again.</p>'
+  children: []
+- id: 68
+  author: mario
+  url: https://mariospr.org
+  date: '2009-02-19T15:08:46+00:00'
+  date_display: February 19, 2009
+  html: '<p>&gt; Thank you mario!<br>
+
+    &gt; I have NVIDIA Quadro NVS 140M and was struggling with this <br>
+
+    &gt; problem for a while now and your solutions seems to be <br>
+
+    &gt; working  (so far no glitches).<br>
+
+    &gt;<br>
+
+    &gt; Thank you again.</p>
+
+    <p>You''re welcome. By the way, it is quite rewarding to see how a post is really helpful for someone else, so thank you too for let me know about it.</p>
+
+    <p>:-)</p>'
+  children: []
+- id: 69
+  author: shS
+  url: ''
+  date: '2009-02-25T11:56:34+00:00'
+  date_display: February 25, 2009
+  html: <p>Nope. It seems I still have this problem, but it appears more seldom. CTRL-ALT-F1 and coming back to X solves the problem temporarily.</p>
+  children: []
+- id: 70
+  author: mario
+  url: https://mariospr.org
+  date: '2009-02-25T12:08:37+00:00'
+  date_display: February 25, 2009
+  html: '<p>Hmmm.. perhaps your problem is different than mine then, since I''ve not experienced it again since that.</p>
+
+    <p>Anyway, all what I know about this nvidia setting is that it''s a temporary workaround for a bigger problem in the driver itself. Let''s hope that newer versions fix the problem (and I think they do, as I had not that problem when I had Ubuntu Intrepid installed)</p>'
+  children: []
+- id: 71
+  author: J.A.
+  url: ''
+  date: '2009-02-25T16:08:12+00:00'
+  date_display: February 25, 2009
+  html: '<p>Thanks!!</p>
+
+    <p>I''m suffering from this bug since months ago. Hope your fix will be solve the problem.</p>'
+  children: []
+- id: 72
+  author: mario
+  url: https://mariospr.org
+  date: '2009-03-07T00:14:34+00:00'
+  date_display: March 7, 2009
+  html: '<p>shS: see my last update about using envy to get the v173 driver easily installed in your system if you''re still experiencing the same problem.</p>
+
+    <p>It worked for me (lately the same problem began to annoy me again)</p>'
+  children: []
+- id: 73
+  author: shS
+  url: ''
+  date: '2009-03-12T10:19:54+00:00'
+  date_display: March 12, 2009
+  html: '<p>mario: I''m running Gentoo, but you say that 173.14 fixes the problem?</p>
+
+    <p>What version particularly? I have .09, .12, .15 and .16 on portage.</p>'
+  children: []
+- id: 74
+  author: mario
+  url: https://mariospr.org
+  date: '2009-03-16T15:01:14+00:00'
+  date_display: March 16, 2009
+  html: "<p>I'm so sorry to tell you, sHs, that no solution tried so far seemed to finally have got rid of the problem completely, as it seems it's something related to the nvidia driver and compiz, not easy to fix though.</p>\n<p>So, giving up using compiz will fix it but, if you don't want to do it so, the only thing  you can do is a combination of these tips and trying to use the latest \"good\" driver from nvidia, which so far are versions 173 and 177 (version 180 does not fall into the \"good ones\" as it get's more trouble even than the glitches).</p>\n<p>Another thing that also \"helps-but-don't-completely-fix\" is to manually manipulate the /usr/bin/compiz shell script to use what they called 'indirect rendering'. That is, to change the line:</p>\n<p># No indirect by default<br>\n  INDIRECT=\"no\"</p>\n<p>... into:</p>\n<p># No indirect by default<br>\n  INDIRECT=\"yes\"</p>\n<p>... in /usr/bin/compiz.</p>\n<p>Hope this helps you somehow while we don't find the definitive solution :P</p>"
+  children: []
+- id: 75
+  author: marleo
+  url: ''
+  date: '2009-10-06T03:32:54+00:00'
+  date_display: October 6, 2009
+  html: <p>I've only noticed this problem in Firefox (and gecko-based browsers) so far. Going to about:config, changing mousewheel.withnokey.sysnumlines to false and changing mousewheel.withnokey.numlines to a value of 10 or more seems to fix it. Looks like, if enough of the screen changes, it will redraw it properly.</p>
+  children: []
+- id: 76
+  author: marleo
+  url: ''
+  date: '2009-10-06T03:35:37+00:00'
+  date_display: October 6, 2009
+  html: '<p>Correction: still happening, but a lot less.</p>'
+  children: []

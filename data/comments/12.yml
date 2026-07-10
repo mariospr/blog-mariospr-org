@@ -1,0 +1,7 @@
+- id: 9
+  author: pigge
+  url: http://foo.bar.baz/
+  date: '2007-05-08T13:59:58+00:00'
+  date_display: May 8, 2007
+  html: <p>look at the date of the rfc.. anyways the facs are quite correct that "foo" and bar is derived from fubar or "fucked up beyond all recognition"</p>
+  children: []

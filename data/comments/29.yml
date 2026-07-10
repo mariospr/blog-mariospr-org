@@ -1,0 +1,31 @@
+- id: 41
+  author: decke
+  url: http://www.bluelife.at/
+  date: '2008-06-14T01:18:12+00:00'
+  date_display: June 14, 2008
+  html: '<p>Nice to hear that! It''s the last feature that i am missing because it would be really nice to add vagalumectl as a Firefox protocol handler for lastfm://</p>
+
+    <p>BTW i am currently bringing 0.6 to the FreeBSD ports so it''s available on another platform soon ;o)</p>'
+  children: []
+- id: 42
+  author: Berto
+  url: http://people.igalia.com/berto/
+  date: '2008-06-14T12:51:49+00:00'
+  date_display: June 14, 2008
+  html: <p>decke, the Firefox protocol handler of course will be there! :)</p>
+  children: []
+- id: 43
+  author: hank
+  url: ''
+  date: '2009-01-25T01:11:32+00:00'
+  date_display: January 25, 2009
+  html: '<p>Hi!</p>
+
+    <p>I use vagalumectl to control Vagalume with an IR remote control and LIRC - just the right thing for couch potatoes!  ;-)</p>
+
+    <p>But I never got the hang on the fiefox protocol handler issue :-(</p>
+
+    <p>so long<br>
+
+    hank</p>'
+  children: []

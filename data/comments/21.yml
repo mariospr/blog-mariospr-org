@@ -1,0 +1,39 @@
+- id: 20
+  author: Javi
+  url: https://blogs.igalia.com/jmunhoz
+  date: '2008-03-02T14:50:12+00:00'
+  date_display: March 2, 2008
+  html: '<p>"A bottle of a good beer near the laptop ..."</p>
+
+    <p>Yup! ... this guy rocks although I am not sure whether this practice matchs "agile development" ;)</p>
+
+    <p>Nice script Mario!</p>'
+  children: []
+- id: 21
+  author: mario
+  url: https://mariospr.org
+  date: '2008-03-02T17:47:15+00:00'
+  date_display: March 2, 2008
+  html: '<p>&gt; “A bottle of a good beer near the laptop …”<br>
+
+    &gt;<br>
+
+    &gt; Yup! … this guy rocks although I am not sure whether this practice matchs“<br>
+
+    &gt; agile development” ;)<br>
+
+    &gt;<br>
+
+    Well, it depends on which kind of "agile development" you were thinking of, don''t you think? ;)</p>
+
+    <p>&gt; Nice script Mario!<br>
+
+    Thanks! I hope you found it out useful too.</p>'
+  children: []
+- id: 22
+  author: J.A.
+  url: ''
+  date: '2008-03-03T11:01:19+00:00'
+  date_display: March 3, 2008
+  html: <p>Have you take a look to MPRIS? It's a de-facto standard used by several multimedia programs, like XMMS, to manage them through D-BUS.</p>
+  children: []

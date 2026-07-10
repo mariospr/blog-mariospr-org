@@ -1,0 +1,97 @@
+- id: 6491
+  author: nacho
+  url: ''
+  date: '2013-03-23T15:10:39+00:00'
+  date_display: March 23, 2013
+  html: <p>So what about trying gedit? I always like to hear what people don't like about gedit, can you make a list of things that you are missing or that you are not comfortable with?</p>
+  children:
+  - id: 6492
+    author: mario
+    url: ''
+    date: '2013-03-23T15:21:35+00:00'
+    date_display: March 23, 2013
+    html: '<p>I already tried GEdit some times in the past and even used it as my default coding editor when I was at the University (although to be fair, that was a long time ago), and it just "didn''t feel right" to me as a coding editor.</p>
+
+      <p>Still, as I said, I haven''t tried it for a while (years!), so it might be worth checking it and see what I like and what I don''t, and hopefully I will be able to come up with that "list" at some point, yet I don''t promise anything since I''m not even sure how much of my feeling comes from the fact that no editor out there "feels like emacs".</p>
+
+      <p>Maybe I''m just a True Emacs Lover and haven''t realized of it yet. Or perhaps I''m just doomed! :)</p>'
+    children: []
+  - id: 6526
+    author: TheGhost
+    url: ''
+    date: '2013-03-24T23:55:09+00:00'
+    date_display: March 24, 2013
+    html: <p>I cannot speak for emacs but for me Gedit fails everytime I open large CSV files and try to replace all entries after a given pattern. It starts calculating but never gets finished, in contrast to Kate, which replaces all entries fine in a few seconds.</p>
+    children: []
+  - id: 6528
+    author: liam
+    url: ''
+    date: '2013-03-25T00:42:51+00:00'
+    date_display: March 25, 2013
+    html: "<p>It feels slow.\r<br>\nCompare to geany for instance.\r<br>\nLoading large simple text like logs can utterly strangle it.\r<br>\nIt's extensions are awesome however.</p>"
+    children: []
+- id: 6493
+  author: James
+  url: https://ttboj.wordpress.com/
+  date: '2013-03-23T15:25:54+00:00'
+  date_display: March 23, 2013
+  html: '<p>Cool... I didn''t even know that I was missing out on multiple cursors! The one feature that I really needed, I had to write. It''s all here in case you want to take a look: https://bugzilla.gnome.org/show_bug.cgi?id=693283</p>
+
+    <p>Sadly I don''t have a vim version of this plugin, but if someone can hack it, I''d love to have one.</p>'
+  children:
+  - id: 6494
+    author: nacho
+    url: ''
+    date: '2013-03-23T15:27:48+00:00'
+    date_display: March 23, 2013
+    html: <p>In gedit you have the multiedit plugin for the cursors</p>
+    children: []
+- id: 6495
+  author: Joaquim Rocha
+  url: http://www.joaquimrocha.com
+  date: '2013-03-23T20:26:20+00:00'
+  date_display: March 23, 2013
+  html: <p>I also keep using Emacs although I was for a long time a happy user of a lightweight text editor called Geany. Give it a try.</p>
+  children: []
+- id: 6499
+  author: Dragnucs
+  url: http://www.dragnucs.com
+  date: '2013-03-23T23:16:59+00:00'
+  date_display: March 23, 2013
+  html: "<p>So I finally found my new text editor who will be replacing gedit.\r<br>\nVirtually being like you. I was always searching for a replacement to gedit who have poor auto-complete functionalities. So now I think I have found what I wanted.</p>"
+  children: []
+- id: 6548
+  author: Dominik
+  url: ''
+  date: '2013-03-25T20:54:07+00:00'
+  date_display: March 25, 2013
+  html: <p>Nice, I've recevently followed similar paths there. The "Emacs Rocks" series on youtu.be is pretty good. There are a couple of other good ones, like the one for "Jumping around".</p>
+  children:
+  - id: 6552
+    author: mario
+    url: ''
+    date: '2013-03-25T22:04:25+00:00'
+    date_display: March 25, 2013
+    html: '<p>Just out of curiosity: what did you end up doing? Have you moved to something else or have you finally kept using the same editor (emacs?)?</p>'
+    children: []
+- id: 6578
+  author: Gustavo Noronha
+  url: ''
+  date: '2013-03-26T18:22:03+00:00'
+  date_display: March 26, 2013
+  html: <p>I'm pretty much in the same boat as you are. I've been trying to see if I can get gedit to become better than Emacs. Nice trick, this multi-cursor thing, and thanks for introducing me to this video series, it's pretty cool!</p>
+  children: []
+- id: 6639
+  author: Luis Medinas
+  url: ''
+  date: '2013-03-28T13:54:44+00:00'
+  date_display: March 28, 2013
+  html: "<p>I recently moved to ST2 after 6/7 years of emacs. And i'm very happy with this move.</p>\n<p>Here some reasons why i moved:</p>\n<p>- ST2 has a complete UI and the keyboard shortcuts are much more sane than emacs.\r<br>\n- ST2 feels beatiful, modern and polished in every platform.\r<br>\n- ST2 is fast and make you more productive since it's equally powerful and more simpler.\r<br>\n- ST2 can be extended by Python. I already made 3 plugins to boost my own work where in Emacs you have to use LISP which i guess not many people know it (including me).\r<br>\n- ST2 config files are simpler and intuitive unlike emacs.\r<br>\n- I found that i had to install more packages on emacs than in ST2. Most of the experience comes out-of-box in ST2.\r<br>\n- The plugins for ST2 can be really powerful and easy to use. See REPL or Package Control to know what i mean.\r<br>\n- ST3 features are really promissing.</p>\n<p>Drawbacks:\r<br>\n- ST is not free software.\r<br>\n- Sometimes i still have to use emacs (or nano) for the console.\r<br>\n- ST2 development is stopped now, ST3 is under development (beta).</p>\n<p>After all both are powerful, so i think it's just a better of easy vs difficult or simple vs complicated.</p>\n<p>I prefer the simple/easy way now. I feel that a made a great move.</p>"
+  children: []
+- id: 7157
+  author: PatrickB
+  url: http://www.samsunggalaxyproclaim.net
+  date: '2013-04-27T07:27:25+00:00'
+  date_display: April 27, 2013
+  html: <p>Thanks, luis, for the very helpful comparison of emacs vs. ST2. Rackspace had a fun "contest" and emacs won that (barely beating Sublime in the head-to-head). But you make some compelling points in favor of ST2.</p>
+  children: []

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>WebKitGTK+: current status and roadmap</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <!-- metadata -->
+    <meta name="generator" content="S5" />
+    <meta name="version" content="1.0" />
+    <meta name="presdate" content="20120726" />
+    <meta name="author" content="Mario Sanchez Prada" />
+    <meta name="company" content="Igalia S.L." />
+    <!-- configuration parameters -->
+    <meta name="defaultView" content="slideshow" />
+    <meta name="controlVis" content="hidden" />
+    <!-- style sheet links -->
+    <link rel="stylesheet" href="s5/ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+    <link rel="stylesheet" href="s5/ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+    <link rel="stylesheet" href="s5/ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+    <link rel="stylesheet" href="s5/ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+    <!-- S5 JS -->
+    <script src="s5/ui/default/slides.js" type="text/javascript"></script>
+
+    <style>
+    .centered {text-align: center; width: 100%; margin-right: 0 auto; margin-left: 0 auto; }
+    </style>
+</head>
+
+<body>
+
+<div class="layout">
+    <div id="controls"><!-- DO NOT EDIT --></div>
+    <div id="currentSlide"><!-- DO NOT EDIT --></div>
+    <div id="header"></div>
+    <div id="footer">
+        <div style="float:right; position: relative; left:0px;">
+          <img style="height: 90%; padding-top: 0.4em; padding-bottom:0; padding-right: 0.5em;" src="igalia.png">
+        </div>
+        <div style="margin-left: -5px; margin-top: -5px;">
+          <h1>GUADEC 2012 &nbsp; / &nbsp; WebKitGTK+: current status and roadmap &nbsp; / &nbsp; mario@igalia.com</h1>
+        </div>
+    </div>
+</div>
+
+<div class="presentation">
+
+    <div class="slide">
+      <img src="igalia-color.png" align="right"><br />
+        <h1 style="padding-top: 10%;">WebKitGTK+:<br /><span  style="font-size: 0.85em;">Current status and roadmap</span></h1>
+        <div style="padding-top: 5%; line-height: 2em; font-size: 0.9em;">
+          <h3 style="font-size: 100%;">Mario Sánchez Prada <span style="font-size: 90%%;">&lt;mario@igalia.com&gt;</span></h3>
+        </div>
+    </div>
+
+    <!-- WEBKIT AND WEBKITGTK+ -->
+
+    <div class="slide">
+        <div class="maintitle">WebKit and WebKitGTK+</div>
+    </div>
+
+    <div class="slide">
+        <h1>What is WebKit?</h1>
+        <div class="centered">
+          <img style="margin-top:0%; width:65%" src="ephy.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>What is WebKit?</h1>
+        <div style="margin-top:3%">
+          <img style="margin-left: 5%; width:37%;" src="webkit-arch.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>What is WebKitGTK+?</h1>
+        <div style="margin-top:3%">
+          <img style="margin-left: 5%; width:37%;" src="webkit-arch.png">
+          <img style="margin-left: 5%; width:51.3%;" src="webkitgtk-arch.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Who is using WebKitGTK+?</h1>
+        <div class="centered">
+          <img style="margin-top:5%; width:100%" src="wkgtk-apps.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="maintitle">WebKit2</div>
+    </div>
+
+    <!-- WEBKIT2 -->
+
+    <div class="slide">
+        <h1>What is WebKit2?</h1>
+        <div class="centered">
+          <img style="margin-top:10%; width:99%" src="webkit2.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>WebKit2:<span style="font-size: 0.95em;"> API & Process Boundaries</span></h1>
+        <div class="centered">
+            <img style="margin-top: 5%; width:99%;" src="webkitvswebkit2-stack.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>WebKit2:<span style="font-size: 0.95em;"> API & Process Boundaries</span></h1>
+        <div class="centered">
+            <img style="margin-top: 5%; width:99%;" src="webkit2vschromium-stack.png">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>WebKit2: <span style="font-size: 0.95em;">State of the art</span></h1>
+        <div style="margin-top:5%">
+          <ul>
+            <li>WebKit2 announced back in April 2010</li>
+            <li>Apple and Qt already released WK2 browsers</li>
+            <li><i>Epiphany</i> with WK2 support in GNOME 3.6 </li>
+            <li>WebKit2GTK+ stable API to be released soon</li>
+            <li>Cross-platform C API exists, internally used</li>
+            <li>Most challenges of multi process model solved</li>
+            <li>Tests running, need to deploy more test bots</li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- CURRENT STATUS -->
+
+    <div class="slide">
+        <div class="maintitle">WebKitGTK+: Current Status</div>
+    </div>
+
+    <div class="slide">
+        <div style="margin-top:0%">
+          <h1><i>Previously in WebKitGTK+...</i></h1> <!-- 1.4.1 on April 2011 / 1.4.2 on July 2011-->
+          <ul>
+            <li>Migrated to GTK+ 3.x. Kept GTK 2.x support.</li>
+            <li>Independent JavaScriptCore library</li>
+            <li>Improved HTML5 support</li>
+            <li>WebGL support (not enabled by default)</li>
+            <li>GObject bindings for the DOM</li>
+            <li>On-disk network cache</li>
+            <li>Spell checking APIs</li>
+            <li>Improvements in accessibility support</li>
+            <li>Basic support for WebKit2 (WebKit2GTK+)</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div style="margin-top:0%">
+          <h1><i>Stable release</i> (1.8)</h1>
+          <ul>
+            <li>Improvements in performance (backing store)</li>
+            <li>DFG JIT compiler enabled in JavaScriptCore</li>
+            <li>HTML5 history APIs</li>
+            <li>WebGL support built by default</li>
+            <li>Initial support for Accelerated Compositing</li>
+            <li>Experimental support for WebAudio</li>
+            <li>Geolocation API built by default</li>
+            <li>Preliminary version of WebKit2GTK+ API</li>
+            <li>Enabled accessibility support in WebKit2GTK+</li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- ROADMAP -->
+
+    <div class="slide">
+        <div class="maintitle">WebKitGTK+: Roadmap</div>
+    </div>
+
+    <div class="slide">
+        <div style="margin-top:5%">
+          <h1>WebKitGTK+ Roadmap</h1>
+          <h2>WebKit1</h2>
+          <ul>
+            <li>In <i>maintenance mode</i> from GNOME 3.6 on</li>
+            <li>Epiphany no longer using WK1 after 3.8</li>
+            <li>Other apps could start migrating as well</li>
+          </ul>
+          <h2 style="margin-top:5%">WebKit2</h2>
+          <ul>
+            <li>Beta version of WebKit2GTK+ API for GNOME 3.6</li>
+            <li>New development will happen in WebKit2GTK+</li>
+            <li>Parallel installable with WebKit1</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1><i>Next stable release</i> (1.10)</h1>
+        <div style="margin-top:0%">
+          <ul>
+            <li>Support for Accelerated Compositing</li>
+            <li>WebGL enabled by default</li>
+            <li>Support for HTML5 Fullscreen and WebAudio</li>
+            <li>Multimedia layer ported to GStreamer 0.11</li>
+            <li>Support for the Low-Level Interpreter in JSC</li>
+            <li>Beta version of the WebKit2GTK+ API:</li>
+            <ul style="line-height: 1.3em">
+              <li>Context menus, Web Inspector, on-disk cache</li>
+              <li>HTML5 fullscreen, cookies, geolocation</li>
+              <li>Favicons, spell-checking, print support</li>
+              <li>Documentation, GI annotations</li>
+            </ul>
+            <li>More tests running and passing (also for WK2)</li>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1><i>Upcoming releases</i> (2.0, 2.2...)</h1>
+        <div style="margin-top:5%">
+          <ul>
+            <li>First <b>stable API</b> of WebKit2GTK+ for 2.0</li>
+            <li>Stabilization of the WebKit2GTK+ API</li>
+            <li>Add more API to WebKit2GTK+ as required</li>
+            <li>HW accelerated Video Rendering</li>
+            <li>Integration of the cairo-gl backend</li>
+            <li>Port more apps to WebKit2GTK+ (yelp, ephy...)</li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- WRAP UP -->
+
+    <div class="slide">
+        <div class="maintitle">Wrapping up</div>
+    </div>
+
+    <div class="slide">
+        <h1>Conclusions</h1>
+        <div style="margin-top:0%">
+          <ul>
+            <li>Mature port of WebKit, used everywhere</li>
+            <li>Released regularly (every 6 months)</li>
+            <li>Suitable for writing modern browsers</li>
+            <li>Great option for embedders</li>
+            <li>Lots of improvements during the previous months</li>
+            <li>WebKit1 in <i>maintenance mode</i> since GNOME 3.6</li>
+            <li>WebKit2GTK+ <i>beta</i> API since GNOME 3.6</li>
+            <li>Stable WebKit2GTK+ API expected for 3.8</li>
+            <li>Epiphany with WK2 by default expected for 3.8</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1>Reporting bugs and Contributing</h1>
+        <div style="margin-top:0%">
+          <ul style="font-size: 1em">
+            <li><i>www.webkit.org</i></li>
+            <li><i>bugs.webkit.org</i></li>
+            <li><i>www.webkitgtk.org</i></li>
+            <li><i>trac.webkit.org/wiki/WebKitGTK/WebKit2Roadmap</i></li>
+            <li>Mailing lists:
+              <ul style="line-height: 1.2em">
+                <li><i>webkit-gtk@lists.webkit.org</i></li>
+                <li><i>webkit-dev@lists.webkit.org</i></li>
+              </ul>
+            </li>
+            <li><i>IRC</i> channels on <i>irc.freenode.net</i>:
+              <ul style="line-height: 1.2em">
+                <li><i>#webkitgtk+</i> and <i>#webkit</i></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="maintitle">
+          Thanks!
+        </div>
+    </div>
+</div>
+</body>
+</html>

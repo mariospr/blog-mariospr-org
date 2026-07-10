@@ -1,0 +1,14 @@
+# mariospr.org — static hosting rules (Apache).
+# Preserves WordPress feed URLs and the old author-archive redirect.
+
+RewriteEngine On
+RewriteBase /
+
+# WordPress-style feed URLs -> Hugo's index.xml, served IN PLACE (internal rewrite,
+# so planet aggregators polling /category/<slug>/feed/ keep receiving valid RSS).
+RewriteRule ^(.*/)?feed/?$   /$1index.xml   [L]
+
+# Author archives / ?author=N  ->  home (301), replicating the old mu-plugin.
+RewriteCond %{QUERY_STRING} (^|&)author=\d
+RewriteRule ^$              /?   [R=301,L]
+RewriteRule ^author(/.*)?$  /    [R=301,L]
