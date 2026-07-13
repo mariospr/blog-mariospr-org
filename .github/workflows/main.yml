@@ -31,7 +31,7 @@ jobs:
           lftp -c "
             set sftp:connect-program 'ssh -a -x -o UserKnownHostsFile=$HOME/.ssh/known_hosts';
             open -u '${{ secrets.DEPLOY_FTP_USER }}','${{ secrets.DEPLOY_FTP_PASSWORD }}' sftp://${{ secrets.DEPLOY_FTP_HOST }}:22;
-            mirror --reverse --delete --verbose \
+            mirror --reverse --delete --ignore-time --verbose \
               --exclude-glob .git/ \
               public/ ${{ secrets.DEPLOY_FTP_PATH }};
           "
