@@ -9,36 +9,36 @@ Here you'll find the material for some of the talks &amp; lectures I delivered:
 <h1 class="talks-year-header">2026</h1>
 <div class="talks-talk"><span class="talk-name">Engineering Quality in a Fast-Moving Open Source Project: WPE WebKit</span>
 <span class="talk-details">Open Source Summit North America. May 18th - Minneapolis, Minnesota (USA)</span>
-<span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/20260518-EngineeringQualityInWPEWebKit">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/engineering-quality-in-a-fast-moving-open-source-project-wpe-webkit">PDF version</a>)
-</span></div>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/engineering-quality-in-a-fast-moving-open-source-project-wpe-webkit">See the presentation online</a></span>
+</div>
 <div class="talks-talk"><span class="talk-name">Introducción a WPE WebKit: el Motor Web para Sistemas Embebidos con Linux</span>
 <span class="talk-details">Congreso esLibre 26. April 18th - Melide, A Coruña (Spain)</span>
-<span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/20260417-WPEWebKitEsLibre">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/introduccion-a-wpe-webkit-el-motor-web-para-sistemas-embebidos-con-linux">PDF version</a>)
-</span></div>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/introduccion-a-wpe-webkit-el-motor-web-para-sistemas-embebidos-con-linux">See the presentation online</a></span>
+</div>
 <div class="talks-talk"><span class="talk-name">Web Engines for Embedded Devices: An Introduction to WPE WebKit</span>
 <span class="talk-details">Embedded World Conference 2026. March 12th - Nuremberg (Germany)</span>
-<span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/20260312-AnIntroductionToWPEWebKit-EWC">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/web-engines-for-embedded-devices-an-introduction-to-wpe-webkit">PDF version</a>)
-</span></div>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/web-engines-for-embedded-devices-an-introduction-to-wpe-webkit">See the presentation online</a></span>
+</div>
 <div class="talks-talk"><span class="talk-name">The Web Platform on Linux devices with WebKit: where are we now?</span>
 <span class="talk-details">FOSDEM 2026. January 31st - Brussels (Belgium)</span>
-<span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/20260131-WebPlatformOnLinuxWithWebKit">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/the-web-platform-on-linux-devices-with-webkit-where-are-we-now">PDF version</a>)
-</span></div>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/the-web-platform-on-linux-devices-with-webkit-where-are-we-now">See the presentation online</a></span>
+</div>
 
 <h1 class="talks-year-header">2025</h1>
 <div class="talks-talk"><span class="talk-name">Igalia and WebKit: Status update and plans</span>
 <span class="talk-details">WebKit Contributors Meeting 2025. October 28th - Cupertino, California (USA)</span>
-<span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/contributors-meeting-presentations/2025/igalia-slides/igalia-and-webkit-2025.html">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/igalia-and-webkit-status-update-and-plans-2025">PDF version</a>)
-</span></div>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/igalia-and-webkit-status-update-and-plans-2025">See the presentation online</a></span>
+</div>
 <div class="talks-talk"><span class="talk-name">Unlocking the Full Potential of WPE to Build a Successful Embedded Product</span>
 <span class="talk-details">Open Source Summit North America. June 24th - Denver, Colorado (USA)</span>
-<span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/20250624-UnlockingtheFullPotentialofWPE">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/unlocking-the-full-potential-of-wpe-to-build-a-successful-embedded-product">PDF version</a>)
-</span></div>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/unlocking-the-full-potential-of-wpe-to-build-a-successful-embedded-product">See the presentation online</a></span>
+</div>
 
 <h1 class="talks-year-header">2024</h1>
 <div class="talks-talk"><span class="talk-name">Igalia and WebKit: Status update and plans</span>
 <span class="talk-details">WebKit Contributors Meeting 2024. October 22nd - Cupertino, California (USA)</span>
-<span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/contributors-meeting-presentations/2024/igalia-slides/igalia-and-webkit-2024.html">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/igalia-and-webkit-status-update-and-plans-2024">PDF version</a>)
-</span></div>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/igalia-and-webkit-status-update-and-plans-2024">See the presentation online</a></span>
+</div>
 <div class="talks-talk"><span class="talk-name">Building end-user applications on embedded devices with WPE</span>
 <span class="talk-details">Embedded Open Source Summit. April 18th - Seattle, Washington (USA)</span>
 <span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/20240418-BuildingEndUserApplicationsWithWPE">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/building-end-user-applications-on-embedded-devices-with-wpe">PDF version</a>)
@@ -47,8 +47,8 @@ Here you'll find the material for some of the talks &amp; lectures I delivered:
 <h1 class="talks-year-header">2023</h1>
 <div class="talks-talk"><span class="talk-name">Igalia and WebKit: Status update and plans</span>
 <span class="talk-details">WebKit Contributors Meeting 2023. October 24th - Cupertino, California (USA)</span>
-<span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/contributors-meeting-presentations/2023/igalia-slides/igalia-and-webkit-2023.html">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/igalia-and-webkit-status-update-and-plans">PDF version</a>)
-</span></div>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/igalia-and-webkit-status-update-and-plans">See the presentation online</a></span>
+</div>
 <div class="talks-talk"><span class="talk-name">Add the power of the Web to your embedded devices with WPE WebKit</span>
 <span class="talk-details">Embedded Recipes 2023. September 29th - Paris (France)</span>
 <span class="talk-link"><a href="https://people.igalia.com/msanchez/talks/202309-EmbeddedRecipes-WPE">See the presentation online</a> (<a href="https://speakerdeck.com/mariospr/add-the-power-of-the-web-to-your-embedded-devices-with-wpe-webkit">PDF version</a>)
