@@ -7,6 +7,10 @@ date: '2012-08-23T01:52:28+00:00'
 Here you'll find the material for some of the talks &amp; lectures I delivered:
 
 <h1 class="talks-year-header">2026</h1>
+<div class="talks-talk"><span class="talk-name">WPE Hands-On: Writing a Launcher for Embedded Devices With the New WPEPlatform API</span>
+<span class="talk-details">Open Source Summit Europe. October 8th - Prague (Czech Republic)</span>
+<span class="talk-link"><a href="https://speakerdeck.com/mariospr/wpe-hands-on-writing-a-launcher-for-embedded-devices-with-the-new-wpeplatform-api">See the presentation online</a></span>
+</div>
 <div class="talks-talk"><span class="talk-name">Engineering Quality in a Fast-Moving Open Source Project: WPE WebKit</span>
 <span class="talk-details">Open Source Summit North America. May 18th - Minneapolis, Minnesota (USA)</span>
 <span class="talk-link"><a href="https://speakerdeck.com/mariospr/engineering-quality-in-a-fast-moving-open-source-project-wpe-webkit">See the presentation online</a></span>
