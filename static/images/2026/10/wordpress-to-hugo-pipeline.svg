@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="420" fill="#fafafa"/>
+
+  <!-- Row 1: extraction -->
+  <text x="30" y="38" font-size="15" font-weight="bold" fill="#333">1. Extraction (one-off)</text>
+
+  <rect x="30" y="55" width="200" height="120" rx="8" fill="#e8eef7" stroke="#4a6fa5"/>
+  <text x="130" y="82" font-size="15" font-weight="bold" text-anchor="middle" fill="#223">WordPress backup</text>
+  <text x="130" y="108" font-size="13" text-anchor="middle" fill="#333">mysqldump (20 MB)</text>
+  <text x="130" y="128" font-size="13" text-anchor="middle" fill="#333">wp-content/uploads/</text>
+  <text x="130" y="148" font-size="13" text-anchor="middle" fill="#333">slides, videos, misc...</text>
+
+  <rect x="290" y="55" width="200" height="120" rx="8" fill="#e8eef7" stroke="#4a6fa5"/>
+  <text x="390" y="82" font-size="15" font-weight="bold" text-anchor="middle" fill="#223">Throwaway MariaDB</text>
+  <text x="390" y="108" font-size="13" text-anchor="middle" fill="#333">podman container</text>
+  <text x="390" y="128" font-size="13" text-anchor="middle" fill="#333">dump imported, queried,</text>
+  <text x="390" y="148" font-size="13" text-anchor="middle" fill="#333">then deleted</text>
+
+  <rect x="550" y="55" width="200" height="120" rx="8" fill="#e8eef7" stroke="#4a6fa5"/>
+  <text x="650" y="82" font-size="15" font-weight="bold" text-anchor="middle" fill="#223">extract.py</text>
+  <text x="650" y="108" font-size="13" text-anchor="middle" fill="#333">~260 lines of Python</text>
+  <text x="650" y="128" font-size="13" text-anchor="middle" fill="#333">[caption] to &lt;figure&gt;,</text>
+  <text x="650" y="148" font-size="13" text-anchor="middle" fill="#333">absolute to relative URLs</text>
+
+  <rect x="790" y="55" width="180" height="120" rx="8" fill="#eaf5ea" stroke="#4a8a4a"/>
+  <text x="880" y="82" font-size="15" font-weight="bold" text-anchor="middle" fill="#223">Hugo sources</text>
+  <text x="880" y="108" font-size="13" text-anchor="middle" fill="#333">101 posts, 3 pages</text>
+  <text x="880" y="128" font-size="13" text-anchor="middle" fill="#333">52 categories</text>
+  <text x="880" y="148" font-size="13" text-anchor="middle" fill="#333">252 comments (YAML)</text>
+
+  <line x1="232" y1="115" x2="286" y2="115" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="492" y1="115" x2="546" y2="115" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="752" y1="115" x2="786" y2="115" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- connector to row 2 -->
+  <path d="M880,177 L880,205 L60,205 L60,251" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Row 2: everyday workflow -->
+  <text x="75" y="243" font-size="15" font-weight="bold" fill="#333">2. Every new post (git push)</text>
+
+  <rect x="30" y="255" width="200" height="120" rx="8" fill="#eaf5ea" stroke="#4a8a4a"/>
+  <text x="130" y="282" font-size="15" font-weight="bold" text-anchor="middle" fill="#223">Git repository</text>
+  <text x="130" y="308" font-size="13" text-anchor="middle" fill="#333">Markdown + HTML posts</text>
+  <text x="130" y="328" font-size="13" text-anchor="middle" fill="#333">PaperMod theme</text>
+  <text x="130" y="348" font-size="13" text-anchor="middle" fill="#333">(+ small overrides)</text>
+
+  <rect x="290" y="255" width="200" height="120" rx="8" fill="#f5efe4" stroke="#a5824a"/>
+  <text x="390" y="282" font-size="15" font-weight="bold" text-anchor="middle" fill="#223">GitHub Actions</text>
+  <text x="390" y="308" font-size="13" text-anchor="middle" fill="#333">hugo --gc --minify</text>
+  <text x="390" y="328" font-size="13" text-anchor="middle" fill="#333">lftp mirror over SFTP</text>
+
+  <rect x="550" y="255" width="420" height="120" rx="8" fill="#f5efe4" stroke="#a5824a"/>
+  <text x="760" y="282" font-size="15" font-weight="bold" text-anchor="middle" fill="#223">Same host as before, now static files only</text>
+  <text x="760" y="310" font-size="13" text-anchor="middle" fill="#333">/YYYY/MM/DD/slug/ served as is, no redirects needed</text>
+  <text x="760" y="331" font-size="13" text-anchor="middle" fill="#333">Rewrite rule: /category/&lt;slug&gt;/feed/ served from index.xml</text>
+  <text x="760" y="352" font-size="13" text-anchor="middle" fill="#333">RSS &lt;guid&gt; kept as ?p=&lt;id&gt;, so planets don't re-post</text>
+
+  <line x1="232" y1="315" x2="286" y2="315" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="492" y1="315" x2="546" y2="315" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="500" y="405" font-size="12" text-anchor="middle" fill="#777">No MySQL, no PHP, no plugins to update.</text>
+</svg>
