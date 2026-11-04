@@ -1,7 +1,6 @@
 ---
 title: "Letting an AI agent migrate this blog from WordPress to Hugo"
 date: 2026-11-04T10:00:00+00:00
-draft: true
 slug: letting-an-ai-agent-migrate-this-blog-from-wordpress-to-hugo
 categories:
   - General
