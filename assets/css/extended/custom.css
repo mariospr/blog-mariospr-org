@@ -65,3 +65,45 @@
   font-size: .9em;
   font-style: italic;
 }
+
+/* Grid of linked "areas of work" (e.g. Igalia and WebKit posts) */
+.post-content ul.work-areas {
+  list-style: none;
+  padding: 0;
+  margin: 1.5em 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .6em;
+}
+.post-content ul.work-areas li { margin: 0; }
+.post-content ul.work-areas a {
+  display: flex;
+  align-items: center;
+  gap: .7em;
+  height: 100%;
+  padding: .6em .9em;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--entry);
+  color: var(--primary);
+  font-weight: 500;
+  box-shadow: none;
+  text-decoration: none;
+  transition: border-color .15s, transform .15s;
+}
+.post-content ul.work-areas a:hover {
+  border-color: var(--secondary);
+  transform: translateY(-1px);
+}
+.post-content .work-area-icon {
+  flex: 0 0 1.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  line-height: 1;
+}
+.post-content .work-area-icon img { margin: 0; width: auto; height: 1em; }
+@media (max-width: 480px) {
+  .post-content ul.work-areas { grid-template-columns: 1fr; }
+}
