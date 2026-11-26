@@ -31,7 +31,7 @@ The parts, or "actors", involved in any <a title="GTK+" href="http://www.gtk.org
 	<li><strong>GTK+</strong></li>
 	<li><strong>GTK's Accessibility Implementation</strong></li>
 </ul>
-<a href="/2013/02/03/accessibility-in-webkitgtk/atk-a11y/" rel="attachment wp-att-1506"><img class="aligncenter size-large wp-image-1506" alt="Accessibility in GTK+ applications" src="/wp-content/uploads/2013/02/atk-a11y-600x290.png" width="584" height="282" /></a>
+<a href="/wp-content/uploads/2013/02/atk-a11y.png" rel="attachment wp-att-1506"><img class="aligncenter size-large wp-image-1506" alt="Accessibility in GTK+ applications" src="/wp-content/uploads/2013/02/atk-a11y-600x290.png" width="584" height="282" /></a>
 
 Now let's describe all those points, one by one:
 
@@ -68,7 +68,7 @@ Provides <a title="AtkObject" href="http://developer.gnome.org/atk/stable/AtkObj
 
 So that's all so far, when it comes to <a title="GTK+" href="http://www.gtk.org">GTK+</a> applications. Check the following diagram for a more detailed look at all these hierarchies for a hypothetical <a title="GTK+" href="http://www.gtk.org">GTK+</a> application exposing information and a screen reader accessing it:
 
-<a href="/2013/02/03/accessibility-in-webkitgtk/gtk-a11y/" rel="attachment wp-att-1442"><img class="aligncenter size-large wp-image-1442" alt="Accessibility in GTK+ applications: a specific example" src="/wp-content/uploads/2013/02/gtk-a11y-600x259.png" width="584" height="252" /></a>As you can see, there's an <a href="http://developer.gnome.org/atk/stable/index.html" rel="nofollow">ATK</a> tree matching the <a title="GTK+" href="http://www.gtk.org">GTK+</a> hierarchy, and another <a href="http://www.linuxfoundation.org/collaborate/workgroups/accessibility/atk/at-spi/at-spi_on_d-bus" rel="nofollow">AT-SPI</a> tree matching the <a href="http://developer.gnome.org/atk/stable/index.html" rel="nofollow">ATK</a> one. Finally, the screen reader accesses the information through that <a href="http://www.linuxfoundation.org/collaborate/workgroups/accessibility/atk/at-spi/at-spi_on_d-bus" rel="nofollow">AT-SPI</a> tree, as explained above.
+<a href="/wp-content/uploads/2013/02/gtk-a11y.png" rel="attachment wp-att-1442"><img class="aligncenter size-large wp-image-1442" alt="Accessibility in GTK+ applications: a specific example" src="/wp-content/uploads/2013/02/gtk-a11y-600x259.png" width="584" height="252" /></a>As you can see, there's an <a href="http://developer.gnome.org/atk/stable/index.html" rel="nofollow">ATK</a> tree matching the <a title="GTK+" href="http://www.gtk.org">GTK+</a> hierarchy, and another <a href="http://www.linuxfoundation.org/collaborate/workgroups/accessibility/atk/at-spi/at-spi_on_d-bus" rel="nofollow">AT-SPI</a> tree matching the <a href="http://developer.gnome.org/atk/stable/index.html" rel="nofollow">ATK</a> one. Finally, the screen reader accesses the information through that <a href="http://www.linuxfoundation.org/collaborate/workgroups/accessibility/atk/at-spi/at-spi_on_d-bus" rel="nofollow">AT-SPI</a> tree, as explained above.
 <h3>Accessibility in WebKitGTK+</h3>
 Now that we already understand the basics of accessibility in <a title="GTK+" href="http://www.gtk.org">GTK+</a> applications, let's add the bits specifically related to <a title="WebKitGTK+" href="http://www.webkitgtk.org">WebKitGTK+</a>. Namely:
 <ul>
@@ -78,7 +78,7 @@ Now that we already understand the basics of accessibility in <a title="GTK+" hr
 </ul>
 Again, a picture is usually better than just text, so here you have one too:
 
-<a href="/2013/02/03/accessibility-in-webkitgtk/wkgtk-a11y/" rel="attachment wp-att-1496"><img class="aligncenter size-large wp-image-1496" alt="Accessibility in WebKitGTK+" src="/wp-content/uploads/2013/02/wkgtk-a11y-600x259.png" width="584" height="252" /></a>
+<a href="/wp-content/uploads/2013/02/wkgtk-a11y.png" rel="attachment wp-att-1496"><img class="aligncenter size-large wp-image-1496" alt="Accessibility in WebKitGTK+" src="/wp-content/uploads/2013/02/wkgtk-a11y-600x259.png" width="584" height="252" /></a>
 
 In order to clarify it a bit more before explaining each point, let's just say that  you'll have to look in the dashed box named <em><a href="https://svn.webkit.org/repository/webkit/trunk/Source/WebCore" rel="nofollow">WebCore</a> accessibility world</em>, where the hierarchy on the left (red &amp; orange) represent the<a href="https://svn.webkit.org/repository/webkit/trunk/Source/WebCore" rel="nofollow"> </a><a href="https://svn.webkit.org/repository/webkit/trunk/Source/WebCore/accessibility/" rel="nofollow">WebCore Accessibility objects</a>, while the one on the right (the green one) represents the <a href="https://svn.webkit.org/repository/webkit/trunk/Source/WebCore/accessibility/atk/" rel="nofollow">WebKitGTK+ ATK wrappers</a>.
 
@@ -115,7 +115,7 @@ As <a title="Blog post: WebKit Contributors Meeting, sockets &amp; plugs" href=
 
 Thus, since <em>ATs</em> just<em> </em> understand <a href="http://www.linuxfoundation.org/collaborate/workgroups/accessibility/atk/at-spi/at-spi_on_d-bus" rel="nofollow">AT-SPI</a>, they will see The Right Thing (tm) as in the previous case where we have one single process. See the following diagram for a more visual explanation of this:
 
-<a href="/2013/02/03/accessibility-in-webkitgtk/wk2gtk-a11y/" rel="attachment wp-att-1447"><img class="aligncenter size-large wp-image-1447" alt="Accessibility in WebKit2GTK+" src="/wp-content/uploads/2013/02/wk2gtk-a11y-600x335.png" width="584" height="326" /></a>
+<a href="/wp-content/uploads/2013/02/wk2gtk-a11y.png" rel="attachment wp-att-1447"><img class="aligncenter size-large wp-image-1447" alt="Accessibility in WebKit2GTK+" src="/wp-content/uploads/2013/02/wk2gtk-a11y-600x335.png" width="584" height="326" /></a>
 <h3>Wrapping up</h3>
 So that's it. At the end the post turned out to be longer than what I was expecting, as my initial idea was to publish the stuff I wrote internally at <a title="SERI UK" href="http://www.linkedin.com/company/samsung-electronics-research-institute">Samsung</a> this week, but ended up extending it quite a lot!
 

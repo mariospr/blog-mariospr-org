@@ -11,11 +11,22 @@ jobs:
       - uses: actions/checkout@v7
         with:
           submodules: recursive   # only if your theme is a git submodule
+          fetch-depth: 0          # full history, needed to restore static/ mtimes below
+
+      # A fresh checkout stamps every file with "now", which would make the mirror
+      # below re-upload all ~190 MB of static/ on each deploy. Give static files
+      # their last-commit time instead (Hugo preserves it when copying to public/),
+      # so only static files that actually changed get uploaded.
+      - name: Restore static file mtimes from git
+        run: |
+          git ls-files -z static | while IFS= read -r -d '' f; do
+            touch -d "@$(git log -1 --format=%ct -- "$f")" "$f"
+          done
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.170.1' # pinned: theme/template breakage across Hugo releases
           extended: true          # needed if your theme uses SCSS
 
       - name: Build
@@ -28,10 +39,16 @@ jobs:
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.DEPLOY_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          # NOTE: do NOT use --ignore-time here. It makes lftp compare files by size
+          # only, and Hugo output often changes without changing size (e.g. the
+          # fingerprinted stylesheet.<sha256>.css link in every page): pages were
+          # skipped while --delete removed the old CSS they pointed at, leaving
+          # most of the site unstyled. Every Hugo-generated file has a fresh mtime,
+          # so it is always re-uploaded; static files keep their git mtimes.
           lftp -c "
             set sftp:connect-program 'ssh -a -x -o UserKnownHostsFile=$HOME/.ssh/known_hosts';
             open -u '${{ secrets.DEPLOY_FTP_USER }}','${{ secrets.DEPLOY_FTP_PASSWORD }}' sftp://${{ secrets.DEPLOY_FTP_HOST }}:22;
-            mirror --reverse --delete --ignore-time --verbose \
+            mirror --reverse --delete --verbose \
               --exclude-glob .git/ \
               public/ ${{ secrets.DEPLOY_FTP_PATH }};
           "

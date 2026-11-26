@@ -1,6 +1,9 @@
 # mariospr.org — static hosting rules (Apache).
 # Preserves WordPress feed URLs and the old author-archive redirect.
 
+# Serve Hugo's styled 404 page instead of Apache's default one.
+ErrorDocument 404 /404.html
+
 RewriteEngine On
 RewriteBase /
 
@@ -10,5 +13,6 @@ RewriteRule ^(.*/)?feed/?$   /$1index.xml   [L]
 
 # Author archives / ?author=N  ->  home (301), replicating the old mu-plugin.
 RewriteCond %{QUERY_STRING} (^|&)author=\d
-RewriteRule ^$              /?   [R=301,L]
-RewriteRule ^author(/.*)?$  /    [R=301,L]
+# (Absolute target, otherwise Apache leaks the backend port: https://mariospr.org:443/)
+RewriteRule ^$              https://%{HTTP_HOST}/?   [R=301,L]
+RewriteRule ^author(/.*)?$  https://%{HTTP_HOST}/    [R=301,L]

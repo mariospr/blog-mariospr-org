@@ -18,7 +18,7 @@ wp_id: 1063
 
 As you might already know, the new and shiny 3.6 release of the <a title="The GNOME project" href="http://www.gnome.org">GNOME</a> desktop is <a title="GNOME 3.5.x development series" href="https://live.gnome.org/ThreePointFive">right around the corner</a>, and so it's the next release of <a title="WebKitGTK+" href="http://wwww.webkitgtk.org">WebKitGTK+</a>, the port of the <a title="The WebKit project" href="http://www.webkit.org">WebKit</a> web rendering engine to the <a title="The GTK+ platform" href="http://www.gtk.org">GTK+</a> platform.
 
-And it turns out that such a release is going to be a very special one for us, members of the <a title="Igalia WebKit team" href="http://www.igalia.com/webkit/">WebKit team</a> at <a title="Igalia" href="http://www.igalia.com">Igalia</a>,  since it comes with some very interesting features, like those I already mentioned in the <a title="WebKitGTK+: current status and roadmap" href="/talks/guadec2012-webkitgtk">talk I gave during the past GUADEC</a>, mainly:
+And it turns out that such a release is going to be a very special one for us, members of the <a title="Igalia WebKit team" href="http://www.igalia.com/webkit/">WebKit team</a> at <a title="Igalia" href="http://www.igalia.com">Igalia</a>,  since it comes with some very interesting features, like those I already mentioned in the <a title="WebKitGTK+: current status and roadmap" href="/slides/guadec2012-webkitgtk/">talk I gave during the past GUADEC</a>, mainly:
 <ul>
 	<li>Beta version of the <strong><em>WebKit2GTK+ API</em></strong></li>
 	<li>Support for <em><strong>Accelerated Compositing</strong></em></li>

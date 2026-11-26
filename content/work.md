@@ -4,6 +4,7 @@ slug: work
 date: '2009-02-01T21:34:19+00:00'
 aliases:
 - /other-stuff/
+- /stuff/
 ---
 
 Here you can get information about some of the projects I worked/work on:

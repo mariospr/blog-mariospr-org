@@ -20,12 +20,12 @@ But, apart from the main reason of this conference, we had some interesting expe
 
 Here you are some photos of this last "experience":
 
-<a title="Conxuro da Queimada" href="/wp-content/uploads/2007/04//queimada.jpg" target="_blank"><img src="/wp-content/uploads/2007/04//queimada_thumb.jpg" alt="Conxuro da Queimada" /></a> <a title="Berto with a debian t-shirt" href="/wp-content/uploads/2007/04//berto-debian.jpg" target="_blank"><img src="/wp-content/uploads/2007/04//berto-debian_thumb.jpg" alt="Berto with a debian t-shirt" /></a>
+<a title="Conxuro da Queimada" href="/wp-content/uploads/2007/04/queimada.jpg" target="_blank"><img src="/wp-content/uploads/2007/04/queimada.jpg" alt="Conxuro da Queimada" width="240" /></a> <a title="Berto with a debian t-shirt" href="/wp-content/uploads/2007/04/berto-debian.jpg" target="_blank"><img src="/wp-content/uploads/2007/04/berto-debian.jpg" alt="Berto with a debian t-shirt" width="240" /></a>
 
-<a title="Chema performing an impressive guitar playing with a keyboard" href="/wp-content/uploads/2007/04//chema-fof.jpg" target="_blank"><img src="/wp-content/uploads/2007/04//chema-fof_thumb.jpg" alt="Chema performing an impressive guitar playing with a keyboard" /></a> <a title="Frets On Fire played on the DudesConf projector" href="/wp-content/uploads/2007/04//fof.jpg" target="_blank"><img src="/wp-content/uploads/2007/04//fof_thumb.jpg" alt="Frets On Fire played on the DudesConf projector" /></a>
+<a title="Chema performing an impressive guitar playing with a keyboard" href="/wp-content/uploads/2007/04/chema-fof.jpg" target="_blank"><img src="/wp-content/uploads/2007/04/chema-fof.jpg" alt="Chema performing an impressive guitar playing with a keyboard" width="240" /></a> <a title="Frets On Fire played on the DudesConf projector" href="/wp-content/uploads/2007/04/fof.jpg" target="_blank"><img src="/wp-content/uploads/2007/04/fof.jpg" alt="Frets On Fire played on the DudesConf projector" width="240" /></a>
 
 <strong>Update [21:32]</strong>: I've added another photo of some igalians (Chema, Calvaris, Berto, Javi and me) with Steve Langasek, one of the Debian etch release managers:
 
-<a title="Some igalians with Steve Langasek" href="/wp-content/uploads/2007/04//igalia-etch_release_manager.jpg" target="_blank"><img src="/wp-content/uploads/2007/04//igalia-etch_release_manager_thumb.jpg" alt="Some igalians with Steve Langasek" /></a>
+<a title="Some igalians with Steve Langasek" href="/wp-content/uploads/2007/04/igalia-etch_release_manager.jpg" target="_blank"><img src="/wp-content/uploads/2007/04/igalia-etch_release_manager.jpg" alt="Some igalians with Steve Langasek" width="240" /></a>
 
 See you next time guys!

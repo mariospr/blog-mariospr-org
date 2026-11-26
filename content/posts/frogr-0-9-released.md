@@ -15,7 +15,7 @@ wp_id: 1702
 
 So, after a bit more than one year without releasing any version of <a title="Frogr web site" href="https://wiki.gnome.org/Apps/Frogr">frogr</a>, I finally managed to get some "spare" time to put all the pieces together and ship the ninth version of it, which I believe/hope is going to be a quite solid one.
 
-<a href="/2014/01/17/frogr-0-9-released/20140117-frogr-screenshot/" rel="attachment wp-att-1705"><img class="aligncenter size-large wp-image-1705" alt="Frogr 0.9" src="/wp-content/uploads/2014/01/20140117-frogr-screenshot-600x375.png" width="584" height="365" /></a>
+<a href="/wp-content/uploads/2014/01/20140117-frogr-screenshot.png" rel="attachment wp-att-1705"><img class="aligncenter size-large wp-image-1705" alt="Frogr 0.9" src="/wp-content/uploads/2014/01/20140117-frogr-screenshot-600x375.png" width="584" height="365" /></a>
 
 In all honesty, though, this version does not come with many new features as the previous ones, yet some changes and fixes that I believe were quite necessary, and therefore should help improving the user experience in some subtle ways.
 

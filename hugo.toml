@@ -57,6 +57,9 @@ enableRobotsTXT = true
     favicon      = "/wp-content/uploads/2012/08/favicon.ico"
     favicon16x16 = "/wp-content/uploads/2012/08/favicon.ico"
     favicon32x32 = "/wp-content/uploads/2012/08/favicon.ico"
+    # PaperMod links these unconditionally; point them at the real icon instead of 404s.
+    apple_touch_icon  = "/wp-content/uploads/2012/08/favicon.ico"
+    safari_pinned_tab = "/wp-content/uploads/2012/08/favicon.ico"
 
 # Header navigation
 [menu]
